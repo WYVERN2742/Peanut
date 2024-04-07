@@ -7,8 +7,8 @@ It aims to offer a very large suite of sensors, including Motion, Humidity, Temp
 A prime design point is to also provide capability for extensions; such as solar charging, motor powering, or literally anything else you can imagine.
 
 
->[!warning]
->This is a hobby project and our first exploration into creating a custom PCB from scratch. Mistakes are Guarenteed!
+> [!WARNING]
+> This is a hobby project and our first exploration into creating a custom PCB from scratch. Mistakes are Guarenteed!
 
 ## Roadmap
 
@@ -21,7 +21,7 @@ A prime design point is to also provide capability for extensions; such as solar
 
 ## Components
 
-> [!info]
+> [!NOTE]
 > Component list is subject to change; especially before Rev 1.0
 
 
@@ -42,7 +42,7 @@ A prime design point is to also provide capability for extensions; such as solar
 
 ## Electronic Schematics:
 
-- [x] [[Motion Sensor]]
+- [x] Motion Sensor
 - [ ] Humidity Sensor
 - [ ] Temperature Sensor
 - [ ] Ambient Light Sensor
