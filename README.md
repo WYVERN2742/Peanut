@@ -57,3 +57,12 @@ A prime design point is to also provide capability for extensions; such as solar
 	- [ ] Pressure Sensor
 	- [ ] Battery Monitor
 
+## Design Goals
+
+*User goals and considerations; along with some misc ideas/wants*
+- Include Battery + Interfaces for Extension (data & power)
+- Small in size;- strap to wrist.
+- As many general sensors as possible
+- Buttons on battery-side of board if space is constrained
+- Buttons should be ergonomic (if mounted length-ways, buttons facing away) 
+![](doc/img/quick-sketch-buttons.png)
