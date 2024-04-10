@@ -25,26 +25,25 @@ A prime design point is to also provide capability for extensions; such as solar
 > Component list is subject to change; especially before Rev 1.0
 
 
-| Type                 | Component                                                                                                       | Price | Comments           | Connection     | In Stock for [JLCPCB](jlcpcb.com/parts)? |
-| -------------------- | --------------------------------------------------------------------------------------------------------------- | ----- | ------------------ | -------------- | ---------------------------------------- |
-| Motion Sensor        | [BNO085](https://www.digikey.co.uk/en/products/detail/ceva-technologies-inc/BNO085/9445940)                     | £12   | Used in slime VR's | I2C            | N                                        |
-| Piezo                |                                                                                                                 |       |                    | Analog (PWM)   |                                          |
-| Humidity Sensor      | [SHT40-BD1B-R2](https://www.mouser.co.uk/ProductDetail/?qs=ulEaXIWI0c%252BjgdkzNQkrGw%3D%3D)                    | £2    |                    | I2C            |                                          |
-| Temperature Sensor   | [TMP1075DSGR](https://www.digikey.co.uk/en/products/detail/texas-instruments/TMP1075DSGR/10715322)              | £0.52 |                    | I2C            |                                          |
-| 4-Channel DAC        | [MCP4728T-E/UN](https://www.digikey.co.uk/en/products/detail/microchip-technology/MCP4728T-E-UN/2126093)        | £1.98 |                    | I2C -> Analog  |                                          |
-| Light Sensor         | [VEML7700](https://www.digikey.co.uk/en/products/detail/vishay-semiconductor-opto-division/VEML7700-TR/5820243) | £1.5  |                    | I2C            |                                          |
-| 8-Bit I2C -> Digital | [PCF8574ADWR](https://www.digikey.co.uk/en/products/detail/texas-instruments/PCF8574ADWR/484754)                | £1    |                    | I2C -> Digital |                                          |
-| 12Bit I2C ADC        | [ADC121C021CIMM](https://www.digikey.co.uk/en/products/detail/texas-instruments/ADC121C021CIMM-NOPB/2075626)    | £1.95 |                    | Analog -> I2C  |                                          |
-| Pressure Sensor      | LWP040-PSGLC-S                                                                                                  | £0.30 |                    | Analog         |                                          |
-| Push Button          |                                                                                                                 |       |                    | Digital        |                                          |
-| Side Switch          |                                                                                                                 |       |                    | Digital        |                                          |
+| Type                 | Component                                                                                                                     | Price | Comments           | Connection     | In Stock for [JLCPCB](jlcpcb.com/parts)? |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----- | ------------------ | -------------- | ---------------------------------------- |
+| Motion Sensor        | [BNO085](https://www.digikey.co.uk/en/products/detail/ceva-technologies-inc/BNO085/9445940)                                   | £12   | Used in slime VR's | I2C            | N                                        |
+| Piezo                |                                                                                                                               |       |                    | Analog (PWM)   |                                          |
+| Humidity Sensor      | [HDC2010YPAR](https://www.lcsc.com/product-detail/Temperature-and-Humidity-Sensor_Texas-Instruments-HDC2010YPAR_C477922.html) | £1    |                    | I2C            | Y                                         |
+| 4-Channel DAC        | [MCP4728T-E/UN](https://www.digikey.co.uk/en/products/detail/microchip-technology/MCP4728T-E-UN/2126093)                      | £1.98 |                    | I2C -> Analog  |                                          |
+| Light Sensor         | [VEML7700](https://www.digikey.co.uk/en/products/detail/vishay-semiconductor-opto-division/VEML7700-TR/5820243)               | £1.5  |                    | I2C            |                                          |
+| 8-Bit I2C -> Digital | [PCF8574ADWR](https://www.digikey.co.uk/en/products/detail/texas-instruments/PCF8574ADWR/484754)                              | £1    |                    | I2C -> Digital |                                          |
+| 12Bit I2C ADC        | [ADC121C021CIMM](https://www.digikey.co.uk/en/products/detail/texas-instruments/ADC121C021CIMM-NOPB/2075626)                  | £1.95 |                    | Analog -> I2C  |                                          |
+| Pressure Sensor      | LWP040-PSGLC-S                                                                                                                | £0.30 |                    | Analog         |                                          |
+| Push Button          |                                                                                                                               |       |                    | Digital        |                                          |
+| Side Switch          |                                                                                                                               |       |                    | Digital        |                                          |
 
 
 ## Electronic Schematics:
 
 - [x] Motion Sensor
-- [ ] Humidity Sensor
-- [ ] Temperature Sensor
+- [x] Humidity Sensor
+- [x] Temperature Sensor
 - [ ] Ambient Light Sensor
 - [x] Digital Muxer
 	- [x] Push Buttons
