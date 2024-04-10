@@ -5,6 +5,142 @@
 	(uuid "dc60d779-af90-4d24-8d63-8ff03bb00515")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Peanut:GND"
 			(power)
 			(pin_numbers hide)
@@ -354,22 +490,26 @@
 		)
 	)
 	(junction
-		(at 111.76 92.71)
+		(at 147.32 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a27c32b-6934-4ec2-a921-09514220bf28")
+		(uuid "1b2c01e2-60ff-4859-a925-669be42b12f4")
 	)
 	(junction
-		(at 147.32 106.68)
+		(at 129.54 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "911b59e8-9d4f-4a2e-a15c-3cc693ff8d7c")
+		(uuid "5402ed83-e1ed-4398-b81d-d0c8b8f99aec")
 	)
-	(junction
-		(at 111.76 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6905149-9c16-40ca-bcc5-c81def7ed189")
+	(wire
+		(pts
+			(xy 111.76 87.63) (xy 109.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d2717c-0b41-462d-8877-10e7f2a0b258")
 	)
 	(wire
 		(pts
@@ -383,23 +523,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 147.32 82.55)
+			(xy 147.32 73.66) (xy 147.32 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19e4045b-32e3-4ead-93e0-fec0af16084d")
+		(uuid "461b76aa-51ba-4a55-94bf-b1328009f2b1")
 	)
 	(wire
 		(pts
-			(xy 111.76 92.71) (xy 111.76 95.25)
+			(xy 147.32 76.2) (xy 162.56 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44c2d4d3-c7af-4e3b-902d-6c321368d66f")
+		(uuid "60407297-1845-4357-a4dc-8c5b57847a42")
 	)
 	(wire
 		(pts
@@ -413,37 +553,37 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 147.32 106.68)
+			(xy 129.54 111.76) (xy 129.54 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c4e2dfe-165a-4abf-9ff5-19699ebb032f")
+		(uuid "7cd6888f-6ff3-474d-a904-df1d5eae5332")
 	)
 	(wire
 		(pts
-			(xy 111.76 106.68) (xy 147.32 106.68)
+			(xy 129.54 110.49) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75c02212-7fcd-4577-81d5-cfe722dc3bd6")
+		(uuid "8cb382eb-bb70-419b-9147-ac7b6e6f9853")
 	)
 	(wire
 		(pts
-			(xy 111.76 95.25) (xy 111.76 106.68)
+			(xy 109.22 110.49) (xy 129.54 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9d15698-2369-48fb-b3f1-634679629356")
+		(uuid "94aea3df-76d6-4865-806e-2daff78567ad")
 	)
 	(wire
 		(pts
-			(xy 147.32 106.68) (xy 147.32 107.95)
+			(xy 147.32 100.33) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -453,13 +593,33 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 87.63) (xy 111.76 92.71)
+			(xy 162.56 86.36) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e208e7d8-d7cd-428c-b78c-66ee93ddd52c")
+		(uuid "ca6ac38d-e885-41d6-9af5-02f9b5dc20b9")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 147.32 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1404988-f85d-40b7-b211-e055bbb81cb3")
+	)
+	(wire
+		(pts
+			(xy 109.22 87.63) (xy 109.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72181c3-2987-424c-860d-f14ed42c83d4")
 	)
 	(wire
 		(pts
@@ -521,7 +681,7 @@
 	)
 	(symbol
 		(lib_id "Peanut:GND")
-		(at 147.32 107.95 0)
+		(at 129.54 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -530,7 +690,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e0eb04f-7722-449b-b8a8-fe369bd38b40")
 		(property "Reference" "#PWR013"
-			(at 147.32 114.3 0)
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,7 +699,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 113.03 0)
+			(at 129.54 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -547,7 +707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 107.95 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 107.95 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,7 +725,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 147.32 107.95 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,6 +740,142 @@
 			(project "Peanut"
 				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2a7593ef-e0f0-4226-9957-5319b4cb98cf"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Peanut:GND")
+		(at 162.56 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72f9eda0-9346-4295-be98-45d51ef63f6d")
+		(property "Reference" "#PWR014"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e7992f3-0726-47bd-9a89-b5c548a65dab")
+		)
+		(instances
+			(project "Peanut"
+				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2a7593ef-e0f0-4226-9957-5319b4cb98cf"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a26b1bf-1c01-4fac-a7e3-e6f8074df198")
+		(property "Reference" "C11"
+			(at 166.37 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 166.37 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.5252 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e0411dd-b9f5-4e53-a242-e4ff303b5818")
+		)
+		(pin "2"
+			(uuid "a696d43d-b383-407b-b399-fca86193d8f7")
+		)
+		(instances
+			(project "Peanut"
+				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2a7593ef-e0f0-4226-9957-5319b4cb98cf"
+					(reference "C11")
 					(unit 1)
 				)
 			)
