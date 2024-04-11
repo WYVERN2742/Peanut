@@ -852,7 +852,222 @@
 			)
 		)
 	)
-	(symbol "SHT40-AD1B-R2"
+	(symbol "HDC2010YPAR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.7 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "HDC2010YPAR"
+			(at -12.7 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Snapeda:HDC2010YPAR_BGA6C100X50P2X3_HDC2010YPAR"
+			(at -0.254 12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 11.43 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.675 mm"
+			(at 6.858 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 0.254 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "HDC2010YPAR_0_0"
+			(rectangle
+				(start -12.7 10.16)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 17.78 7.62 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "ADDR"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -10.16 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "DRDY/INT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LTR-303ALS-01"
 		(pin_names
 			(offset 0.254)
 		)
@@ -867,7 +1082,7 @@
 				)
 			)
 		)
-		(property "Value" "SHT40-AD1B-R2"
+		(property "Value" "LTR-303ALS-01"
 			(at 20.32 7.62 0)
 			(effects
 				(font
@@ -875,8 +1090,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:SHT4x_SEN"
-			(at 0 0 0)
+		(property "Footprint" "Snapeda:LTR-303ALS-01_LTO"
+			(at 21.082 -17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,8 +1100,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SHT40-AD1B-R2"
-			(at 0 0 0)
+		(property "Datasheet" "LTR-303ALS-01"
+			(at 20.828 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +1127,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "SHT40-AD1B-R2"
+		(property "ki_keywords" "LTR-303ALS-01"
 			(at 0 0 0)
 			(effects
 				(font
@@ -921,7 +1136,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SHT4x_SEN SHT4x_SEN-M SHT4x_SEN-L"
+		(property "ki_fp_filters" "LTR-303ALS-01_LTO LTR-303ALS-01_LTO-M LTR-303ALS-01_LTO-L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -930,93 +1145,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "SHT40-AD1B-R2_0_1"
-			(polyline
-				(pts
-					(xy 7.62 -10.16) (xy 33.02 -10.16)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -10.16)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -10.16) (xy 33.02 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 7.62)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "LTR-303ALS-01_0_1"
 			(pin power_in line
-				(at 40.64 -5.08 180)
+				(at 0 0 0)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -1025,189 +1156,6 @@
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 40.64 -2.54 180)
-				(length 7.62)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 40.64 0 180)
-				(length 7.62)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "TMP1075DSGR"
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TMP1075DSGR"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Snapeda:DSG0008A"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TMP1075DSGR"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "TMP1075DSGR"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "DSG0008A DSG0008A_NV"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TMP1075DSGR_0_1"
-			(polyline
-				(pts
-					(xy -12.7 -12.7) (xy 12.7 -12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 12.7) (xy -12.7 -12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -12.7) (xy 12.7 12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 12.7) (xy -12.7 12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 5.08 180)
-				(length 5.08)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "1"
 					(effects
 						(font
@@ -1216,10 +1164,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 7.62 180)
-				(length 5.08)
-				(name "SCL"
+			(pin no_connect line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1234,10 +1182,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 17.78 0 180)
-				(length 5.08)
-				(name "ALERT"
+			(pin power_out line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1252,10 +1200,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -7.62 180)
-				(length 5.08)
-				(name "GND"
+			(pin input line
+				(at 40.64 -5.08 180)
+				(length 7.62)
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1270,10 +1218,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 -5.08 0)
-				(length 5.08)
-				(name "A2"
+			(pin output line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "INT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1288,10 +1236,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 -2.54 0)
-				(length 5.08)
-				(name "A1"
+			(pin bidirectional line
+				(at 40.64 0 180)
+				(length 7.62)
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1306,58 +1254,18 @@
 					)
 				)
 			)
-			(pin input line
-				(at -17.78 0 0)
-				(length 5.08)
-				(name "A0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		)
+		(symbol "LTR-303ALS-01_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 33.02 -10.16)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -17.78 7.62 0)
-				(length 5.08)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -10.16 180)
-				(length 5.08)
-				(name "PAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)

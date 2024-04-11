@@ -29,9 +29,9 @@ A prime design point is to also provide capability for extensions; such as solar
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----- | ------------------ | -------------- | ---------------------------------------- |
 | Motion Sensor        | [BNO085](https://www.digikey.co.uk/en/products/detail/ceva-technologies-inc/BNO085/9445940)                                   | £12   | Used in slime VR's | I2C            | N                                        |
 | Piezo                |                                                                                                                               |       |                    | Analog (PWM)   |                                          |
-| Humidity Sensor      | [HDC2010YPAR](https://www.lcsc.com/product-detail/Temperature-and-Humidity-Sensor_Texas-Instruments-HDC2010YPAR_C477922.html) | £1    |                    | I2C            | Y                                         |
+| Humidity Sensor      | [HDC2010YPAR](https://www.lcsc.com/product-detail/Temperature-and-Humidity-Sensor_Texas-Instruments-HDC2010YPAR_C477922.html) | £1    |                    | I2C            | Y                                        |
 | 4-Channel DAC        | [MCP4728T-E/UN](https://www.digikey.co.uk/en/products/detail/microchip-technology/MCP4728T-E-UN/2126093)                      | £1.98 |                    | I2C -> Analog  |                                          |
-| Light Sensor         | [VEML7700](https://www.digikey.co.uk/en/products/detail/vishay-semiconductor-opto-division/VEML7700-TR/5820243)               | £1.5  |                    | I2C            |                                          |
+| Light Sensor         | [LTR-303ALS-01](https://www.lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-308ALS-01_C492382.html)                 | £0.44 |                    | I2C            | Y                                        |
 | 8-Bit I2C -> Digital | [PCF8574ADWR](https://www.digikey.co.uk/en/products/detail/texas-instruments/PCF8574ADWR/484754)                              | £1    |                    | I2C -> Digital |                                          |
 | 12Bit I2C ADC        | [ADC121C021CIMM](https://www.digikey.co.uk/en/products/detail/texas-instruments/ADC121C021CIMM-NOPB/2075626)                  | £1.95 |                    | Analog -> I2C  |                                          |
 | Pressure Sensor      | LWP040-PSGLC-S                                                                                                                | £0.30 |                    | Analog         |                                          |
@@ -44,7 +44,7 @@ A prime design point is to also provide capability for extensions; such as solar
 - [x] Motion Sensor
 - [x] Humidity Sensor
 - [x] Temperature Sensor
-- [ ] Ambient Light Sensor
+- [x] Ambient Light Sensor
 - [x] Digital Muxer
 	- [x] Push Buttons
 	- [x] Switch

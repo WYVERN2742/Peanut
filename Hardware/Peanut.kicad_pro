@@ -590,6 +590,10 @@
     [
       "2a7593ef-e0f0-4226-9957-5319b4cb98cf",
       "Temperature and Humidity"
+    ],
+    [
+      "0e93c783-48c0-427a-ae2f-e1cfd30fce47",
+      "Light Sensor"
     ]
   ],
   "text_variables": {}
