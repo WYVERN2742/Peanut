@@ -1424,12 +1424,6 @@
 		(uuid "20790c51-cba5-4cee-ae76-e02bbb42dcd4")
 	)
 	(junction
-		(at 104.14 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3be17815-cc18-40ea-a2b1-b64533fa0768")
-	)
-	(junction
 		(at 95.25 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1442,10 +1436,10 @@
 		(uuid "408b2d96-856d-4f66-979f-183a900067ad")
 	)
 	(junction
-		(at 87.63 66.04)
+		(at 86.36 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4d973550-790b-478e-aa6a-f15241dbdecf")
+		(uuid "4e5c41cf-3d71-4fb6-a704-d056c70312e5")
 	)
 	(junction
 		(at 95.25 66.04)
@@ -1494,6 +1488,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d51ac3ec-83ed-477f-a3af-e6eb0c2d77a0")
+	)
+	(junction
+		(at 106.68 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed033356-1efb-4eba-bf9a-d0243b052945")
 	)
 	(junction
 		(at 100.33 86.36)
@@ -1587,16 +1587,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 57.15) (xy 111.76 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2841327e-f6e5-4a20-ab4d-7da9ffb98f30")
-	)
-	(wire
-		(pts
 			(xy 173.99 76.2) (xy 181.61 76.2)
 		)
 		(stroke
@@ -1637,16 +1627,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 83.82) (xy 54.61 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd1516b-49e0-48f1-8fc2-d1c627be875c")
-	)
-	(wire
-		(pts
 			(xy 176.53 106.68) (xy 196.85 106.68)
 		)
 		(stroke
@@ -1657,23 +1637,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 92.71 49.53)
+			(xy 86.36 49.53) (xy 92.71 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "40c4e5ae-0d48-4a7e-8168-707e598d1714")
-	)
-	(wire
-		(pts
-			(xy 87.63 66.04) (xy 95.25 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43043fa5-eaaa-418c-95a1-7b9cccffdd2e")
 	)
 	(wire
 		(pts
@@ -1737,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 66.04) (xy 87.63 66.04)
+			(xy 54.61 66.04) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1807,6 +1777,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 66.04) (xy 95.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e08d2f-8d63-441d-ad1d-a072eaae5c14")
+	)
+	(wire
+		(pts
 			(xy 176.53 109.22) (xy 176.53 106.68)
 		)
 		(stroke
@@ -1817,7 +1797,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 57.15) (xy 104.14 57.15)
+			(xy 101.6 57.15) (xy 106.68 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1877,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 87.63 66.04)
+			(xy 86.36 49.53) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1894,6 +1874,16 @@
 			(type default)
 		)
 		(uuid "a9633e1f-4cbc-4ad5-aafd-7df1c3b2a3e4")
+	)
+	(wire
+		(pts
+			(xy 106.68 57.15) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9d7832-7a27-409c-82fe-86d42c3dafc6")
 	)
 	(wire
 		(pts
@@ -2117,9 +2107,20 @@
 		)
 		(uuid "de6546ea-0c4b-4b87-a93d-97dd7b8b77d0")
 	)
+	(label "3V3"
+		(at 86.36 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f45ccee-040b-4a40-af52-a22aaf67481e")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 87.63 49.53 180)
+		(at 86.36 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2214,7 +2215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA28_5.2X3.8_CEV"
+		(property "Footprint" "Snapeda:LGA28_5.2X3.8_CEV"
 			(at 119.126 67.31 0)
 			(effects
 				(font
@@ -2364,7 +2365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 102.5652 57.15 0)
 			(effects
 				(font
@@ -2434,7 +2435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 93.6752 57.15 0)
 			(effects
 				(font
@@ -2568,7 +2569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 91.44 95.5548 0)
 			(effects
 				(font
@@ -2638,7 +2639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 232.1052 90.17 0)
 			(effects
 				(font
@@ -2840,7 +2841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 112.7252 57.15 0)
 			(effects
 				(font
@@ -2910,7 +2911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 214.3252 90.17 0)
 			(effects
 				(font
@@ -3112,7 +3113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 58.928 72.771 0)
 			(effects
 				(font
@@ -3182,7 +3183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 55.5752 91.44 0)
 			(effects
 				(font
@@ -3250,7 +3251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal"
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 222.25 81.28 0)
 			(effects
 				(font
@@ -3294,7 +3295,7 @@
 	)
 	(symbol
 		(lib_id "PartsLib:GNDREF")
-		(at 104.14 57.15 0)
+		(at 106.68 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3303,7 +3304,7 @@
 		(fields_autoplaced yes)
 		(uuid "f20f6523-29e9-49e3-945c-4440aab829b1")
 		(property "Reference" "#PWR04"
-			(at 104.14 63.5 0)
+			(at 106.68 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3313,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 104.14 62.23 0)
+			(at 106.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 57.15 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 57.15 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +3339,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 104.14 57.15 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 192.532 103.759 0)
 			(effects
 				(font

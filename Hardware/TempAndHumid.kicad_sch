@@ -141,7 +141,7 @@
 				)
 			)
 		)
-		(symbol "Peanut:GND"
+		(symbol "PartsLib:GNDREF"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -158,7 +158,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDREF"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -202,7 +202,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDREF_0_1"
 				(polyline
 					(pts
 						(xy -0.635 -1.905) (xy 0.635 -1.905)
@@ -252,7 +252,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDREF_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -523,7 +523,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 147.32 76.2)
+			(xy 147.32 71.12) (xy 147.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -633,13 +633,13 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 147.32 73.66 0)
+		(at 147.32 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "000999ae-f8ba-4b3f-a0d5-aa8b238a1335")
 	)
@@ -680,73 +680,7 @@
 		(uuid "9904165d-5a0a-4789-8923-59f42b85334a")
 	)
 	(symbol
-		(lib_id "Peanut:GND")
-		(at 129.54 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e0eb04f-7722-449b-b8a8-fe369bd38b40")
-		(property "Reference" "#PWR013"
-			(at 129.54 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 129.54 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86f71bed-3c77-4483-bbbb-e3b7cb34e941")
-		)
-		(instances
-			(project "Peanut"
-				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2a7593ef-e0f0-4226-9957-5319b4cb98cf"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Peanut:GND")
+		(lib_id "PartsLib:GNDREF")
 		(at 162.56 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -754,7 +688,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72f9eda0-9346-4295-be98-45d51ef63f6d")
+		(uuid "569db7f0-53d4-40ac-87f2-70851195ccde")
 		(property "Reference" "#PWR014"
 			(at 162.56 92.71 0)
 			(effects
@@ -764,7 +698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 162.56 91.44 0)
 			(effects
 				(font
@@ -800,7 +734,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e7992f3-0726-47bd-9a89-b5c548a65dab")
+			(uuid "06ef1d67-4b7e-4361-8eaf-7bb08cfad101")
 		)
 		(instances
 			(project "Peanut"
@@ -839,7 +773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 163.5252 83.82 0)
 			(effects
 				(font
@@ -907,7 +841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:HDC2010YPAR_BGA6C100X50P2X3_HDC2010YPAR"
+		(property "Footprint" "Snapeda:BGA6C100X50P2X3_HDC2010YPAR"
 			(at 129.286 77.216 0)
 			(effects
 				(font
@@ -997,6 +931,72 @@
 			(project "Peanut"
 				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2a7593ef-e0f0-4226-9957-5319b4cb98cf"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PartsLib:GNDREF")
+		(at 129.54 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee3123f2-df92-41e5-81e1-d16352d02d38")
+		(property "Reference" "#PWR013"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 129.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a070c531-aba7-4a0e-9d4d-e6c5e8bb3da5")
+		)
+		(instances
+			(project "Peanut"
+				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2a7593ef-e0f0-4226-9957-5319b4cb98cf"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
