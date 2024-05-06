@@ -5,3 +5,6 @@ Cargo.lock
 
 # Ignore compiled bins.
 /*.bin
+
+# Ignore kicad backups;- we have git
+Peanut-backups/
