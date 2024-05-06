@@ -29,6 +29,7 @@ A prime design point is to also provide capability for extensions; such as solar
 
 [Take a look at the up-to-date table](https://github.com/WYVERN2742/Peanut/issues/3)
 
+![](./doc/img/Components.drawio.png)
 
 ## Electronic Schematics:
 
