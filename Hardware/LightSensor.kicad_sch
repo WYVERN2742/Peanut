@@ -141,138 +141,6 @@
 				)
 			)
 		)
-		(symbol "PartsLib:GNDREF"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDREF"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDREF_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDREF_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Peanut:GND"
 			(power)
 			(pin_numbers hide)
@@ -316,8 +184,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -413,7 +281,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 20.32 10.16 0)
+				(at 20.32 9.652 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -421,15 +289,15 @@
 				)
 			)
 			(property "Value" "LTR-303ALS-01"
-				(at 20.32 7.62 0)
+				(at 20.32 6.604 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "Snapeda:LTR-303ALS-01_LTO"
-				(at 21.082 -17.018 0)
+			(property "Footprint" "Peanut:LTR-308ALS-01_LTO"
+				(at 21.082 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -439,7 +307,7 @@
 				)
 			)
 			(property "Datasheet" "LTR-303ALS-01"
-				(at 20.828 -11.43 0)
+				(at 20.574 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -457,12 +325,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Manufacturer" "Lite-On"
+				(at 20.066 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "LTR-303ALS-01"
@@ -531,24 +400,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 40.64 -5.08 180)
 					(length 7.62)
@@ -596,6 +447,26 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTR-303ALS-01_1_1"
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -766,7 +637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:LTR-329ALS-01_LTO"
+		(property "Footprint" "Peanut:LTR-308ALS-01_LTO"
 			(at 117.602 100.838 0)
 			(effects
 				(font
@@ -788,6 +659,15 @@
 		)
 		(property "Description" ""
 			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 96.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PartsLib:GNDREF")
+		(lib_id "Peanut:GND")
 		(at 96.52 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -897,7 +777,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85e769cd-9ffa-40d0-8a25-7b6734dbfc57")
+		(uuid "69ab2ed6-0d64-4e78-90b5-fbd9458ca1f7")
 		(property "Reference" "#PWR019"
 			(at 96.52 101.6 0)
 			(effects
@@ -907,7 +787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
+		(property "Value" "GND"
 			(at 96.52 100.33 0)
 			(effects
 				(font
@@ -933,8 +813,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 96.52 95.25 0)
+		(property "Description" ""
+			(at 96.52 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,7 +823,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "99c1e3f5-0500-499a-be2a-8b15863fcba9")
+			(uuid "e7abf915-f769-4e7b-9132-e8ad066d37d3")
 		)
 		(instances
 			(project "Peanut"

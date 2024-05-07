@@ -428,7 +428,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -441,7 +441,8 @@
   "libraries": {
     "pinned_footprint_libs": [
       "Snapeda",
-      "UltraLibrarian"
+      "UltraLibrarian",
+      "Peanut"
     ],
     "pinned_symbol_libs": [
       "Peanut"
@@ -498,7 +499,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
-        "schematic_color": "rgb(255, 153, 0)",
+        "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -517,7 +518,7 @@
       },
       {
         "netclass": "GND",
-        "pattern": "GNDREF"
+        "pattern": "GND"
       }
     ]
   },
@@ -657,6 +658,10 @@
     [
       "59781bf7-1550-45b0-85ab-4b7f408e28b5",
       "Pressure and ADC"
+    ],
+    [
+      "bfde8090-b59e-4c3b-8acc-5585e33c6dc1",
+      "DAC and Sound"
     ]
   ],
   "text_variables": {}
