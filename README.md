@@ -1,6 +1,6 @@
 # Peanut - Pinenut-01S BL602 MotherBoard
 
-![](./doc/img/board-layout.drawio.png)
+![](./Hardware/Peanut.png)
 
 
 The Peanut is a motherboard for the [PINE64 Pinenut Model-01S](https://pine64.com/product/pinenut-model01s-wifi-ble5-module/) BL602 Wifi/BLE5 Module.
@@ -31,6 +31,9 @@ A prime design point is to also provide capability for extensions; such as solar
 
 ![](./doc/img/Components.drawio.png)
 
+![](./doc/img/board-layout.drawio.png)
+
+
 ## Electronic Schematics:
 
 - [x] Motion Sensor
@@ -56,3 +59,4 @@ A prime design point is to also provide capability for extensions; such as solar
 - As many general sensors as possible
 - Buttons on battery-side of board if space is constrained
 - Buttons should be ergonomic (if mounted length-ways, buttons facing away) 
+
