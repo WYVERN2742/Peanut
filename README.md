@@ -15,11 +15,14 @@ A prime design point is to also provide capability for extensions; such as solar
 
 ## Roadmap
 
+- [x] Board Design & Specs
+- [ ] Component sourcing
 - [ ] Electronic Schematics
 - [ ] Breadboard + Devkit prototyping
-- [ ] Rev 1.0 Board ordering
+- [ ] Prototype PCB with contact pads
 - [ ] Refinements and Debugging
 	- Continual Refinements until design works!
+- [ ] Rev 1.0 board
 - [ ] Case and Extensions
 
 ## Components
