@@ -343,7 +343,7 @@
 				)
 			)
 			(property "Description" "9DOF IMU"
-				(at 0 0 0)
+				(at 35.56 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -937,7 +937,7 @@
 				)
 			)
 			(property "Description" "32.768kHz Crystal"
-				(at 0.254 -5.588 0)
+				(at 0 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1209,8 +1209,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2.2kΩ, 1/4W Resistor"
-				(at 0 0 0)
+			(property "Description" "Resistor"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1380,7 +1380,7 @@
 		(uuid "fea41222-cfa6-4f42-a331-35d6cbb2e107")
 	)
 	(no_connect
-		(at 181.61 101.6)
+		(at 175.26 101.6)
 		(uuid "638d0e35-09d2-42f8-aa70-27f6eb694afd")
 	)
 	(wire
@@ -1485,6 +1485,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 104.14) (xy 185.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3478be3e-fb3c-4012-b640-9b367ee77f18")
+	)
+	(wire
+		(pts
 			(xy 177.8 106.68) (xy 198.12 106.68)
 		)
 		(stroke
@@ -1522,6 +1532,16 @@
 			(type default)
 		)
 		(uuid "4a1265bd-d6a4-4a83-85ab-254d65ea01a0")
+	)
+	(wire
+		(pts
+			(xy 185.42 104.14) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd5c44a-12f9-404e-be22-cb9a2cc47d3a")
 	)
 	(wire
 		(pts
@@ -1595,26 +1615,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 101.6) (xy 181.61 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "678e4fbd-756a-4f40-b958-15a3bb5ab626")
-	)
-	(wire
-		(pts
-			(xy 100.33 88.9) (xy 101.6 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e41af49-fb0b-4c8b-b5da-0b4dd5fb9121")
-	)
-	(wire
-		(pts
 			(xy 101.6 88.9) (xy 104.14 88.9)
 		)
 		(stroke
@@ -1665,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 88.9) (xy 100.33 90.17)
+			(xy 101.6 88.9) (xy 101.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1792,16 +1792,6 @@
 			(type default)
 		)
 		(uuid "cb4b169a-5244-43e2-a0d2-e61adfd89c52")
-	)
-	(wire
-		(pts
-			(xy 175.26 104.14) (xy 182.88 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd010616-638d-41fe-a525-a7155742a94b")
 	)
 	(wire
 		(pts
@@ -1937,7 +1927,7 @@
 	)
 	(text "Used in SPI"
 		(exclude_from_sim no)
-		(at 187.96 101.6 0)
+		(at 181.61 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2023,18 +2013,6 @@
 			(justify left)
 		)
 		(uuid "59bfab95-4727-43b7-9ef5-c2ca10d3a6b4")
-	)
-	(hierarchical_label "I2CADDR"
-		(shape input)
-		(at 182.88 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cd894c1a-e1e8-407f-9b3f-fce6095f734d")
 	)
 	(hierarchical_label "RST"
 		(shape input)
@@ -2681,6 +2659,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Peanut:GND")
+		(at 185.42 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b504a39-28ef-4e3b-98a5-b1e8a0c57130")
+		(property "Reference" "#PWR038"
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef593e6-c056-4d2a-b87f-c6a23e522051")
+		)
+		(instances
+			(project "Peanut"
+				(path "/298ef215-2a76-4225-b9ba-26c57869f278/9f632c63-9e97-4340-a214-949adeb3cd46"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 113.03 53.34 0)
 		(unit 1)
@@ -3066,7 +3110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
+		(property "Description" "Resistor"
 			(at 55.88 73.66 0)
 			(effects
 				(font
@@ -3162,7 +3206,7 @@
 	)
 	(symbol
 		(lib_id "Peanut:GND")
-		(at 100.33 90.17 0)
+		(at 101.6 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3171,7 +3215,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec18d393-0617-4f5a-988c-58e26a0d3e15")
 		(property "Reference" "#PWR03"
-			(at 100.33 96.52 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 95.25 0)
+			(at 101.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 90.17 0)
+			(at 101.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 90.17 0)
+			(at 101.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3250,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 98.806 0)
+			(at 101.6 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
+		(property "Description" "Resistor"
 			(at 198.12 102.87 0)
 			(effects
 				(font

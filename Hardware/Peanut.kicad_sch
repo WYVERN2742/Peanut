@@ -579,7 +579,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" ""
 				(at -0.508 7.874 0)
 				(effects
 					(font
@@ -826,8 +826,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SPDT Slide Switch with 10mm length, 5mm width and 10mm hight."
-				(at 0 0 0)
+			(property "Description" "SPDT Slide Switch"
+				(at 0 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1222,20 +1222,32 @@
 		(uuid "25223504-d6c4-43db-a765-16cf171a3e50")
 	)
 	(no_connect
+		(at 130.81 171.45)
+		(uuid "49941754-f70c-4f0d-a965-c1685c5b821c")
+	)
+	(no_connect
+		(at 129.54 133.35)
+		(uuid "4f5ccfed-cdf3-4a68-9352-a9ab0f5049b7")
+	)
+	(no_connect
 		(at 129.54 86.36)
 		(uuid "8e884f7c-8e1a-42be-aaac-2b85c113f27d")
+	)
+	(no_connect
+		(at 130.81 173.99)
+		(uuid "9e099d55-ab1c-41d2-875b-4c06568ff868")
 	)
 	(no_connect
 		(at 102.87 99.06)
 		(uuid "a4d7024f-e284-402a-832b-cf1c49c75898")
 	)
 	(no_connect
-		(at 101.6 148.59)
-		(uuid "a87c5c0f-e0f8-436f-b732-7bf897527222")
+		(at 101.6 184.15)
+		(uuid "a604c5fc-4c2f-4483-bc5d-fb2030ed439b")
 	)
 	(no_connect
-		(at 129.54 81.28)
-		(uuid "f8c9d6c1-8192-444c-ae40-6de5f49e5730")
+		(at 101.6 148.59)
+		(uuid "a87c5c0f-e0f8-436f-b732-7bf897527222")
 	)
 	(wire
 		(pts
@@ -1439,6 +1451,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 171.45) (xy 134.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1ab3bc-a4a9-4057-8b35-efb5f6485e2b")
+	)
+	(wire
+		(pts
 			(xy 193.04 30.48) (xy 190.5 30.48)
 		)
 		(stroke
@@ -1476,6 +1498,16 @@
 			(type default)
 		)
 		(uuid "65792c17-f46c-4a5b-86ec-d9a627f42aba")
+	)
+	(wire
+		(pts
+			(xy 96.52 184.15) (xy 101.6 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668da473-7994-4e1d-9db4-42803f550fdf")
 	)
 	(wire
 		(pts
@@ -1569,16 +1601,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 132.08) (xy 165.1 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea650a4-a55e-450d-bb39-716e20a088d3")
-	)
-	(wire
-		(pts
 			(xy 175.26 38.1) (xy 177.8 38.1)
 		)
 		(stroke
@@ -1589,13 +1611,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 152.4) (xy 162.56 152.4)
+			(xy 129.54 133.35) (xy 134.62 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a22838de-3be5-433c-a506-d72c32983461")
+		(uuid "a1eec9d7-a65c-4b1b-80e6-59b577f94d9c")
 	)
 	(wire
 		(pts
@@ -1619,6 +1641,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 173.99) (xy 134.62 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f25924-d64d-4d90-a1d9-9f79d973c025")
+	)
+	(wire
+		(pts
 			(xy 109.22 20.32) (xy 119.38 20.32)
 		)
 		(stroke
@@ -1626,6 +1658,16 @@
 			(type default)
 		)
 		(uuid "b503f941-670e-4759-8eab-e6b037d53c63")
+	)
+	(wire
+		(pts
+			(xy 162.56 132.08) (xy 165.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86a744e-beb6-4ed8-a7bf-a8d67ad43157")
 	)
 	(wire
 		(pts
@@ -1689,6 +1731,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 152.4) (xy 165.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb57877f-cfd1-42a7-8c8e-b10a13f06581")
+	)
+	(wire
+		(pts
 			(xy 96.52 134.62) (xy 100.33 134.62)
 		)
 		(stroke
@@ -1716,16 +1768,6 @@
 			(type default)
 		)
 		(uuid "da313ef7-20fd-4081-abd6-b1f88959e595")
-	)
-	(wire
-		(pts
-			(xy 129.54 81.28) (xy 134.62 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db38d1ff-3115-485f-ab1e-3ba300f8f08a")
 	)
 	(wire
 		(pts
@@ -2524,7 +2566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SPDT Slide Switch with 10mm length, 5mm width and 10mm hight."
+		(property "Description" "SPDT Slide Switch"
 			(at 54.61 36.83 0)
 			(effects
 				(font
@@ -3758,6 +3800,16 @@
 			)
 			(uuid "ea796608-97f6-4293-8f2f-ae1695f88ebf")
 		)
+		(pin "~{INT}" output
+			(at 134.62 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "697e0825-481c-4390-ba44-67fd43fc792a")
+		)
 		(instances
 			(project "Peanut"
 				(path "/298ef215-2a76-4225-b9ba-26c57869f278"
@@ -3914,6 +3966,26 @@
 			)
 			(uuid "2a913b3f-939f-4b6a-b026-a5ab8530bd4b")
 		)
+		(pin "ALERT{slash}RDY" output
+			(at 134.62 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5962a380-5603-48f0-a71d-ca5a1ea64c62")
+		)
+		(pin "~{SHDN}" input
+			(at 134.62 173.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b5f84d53-27bd-48f5-a775-3d497625adad")
+		)
 		(instances
 			(project "Peanut"
 				(path "/298ef215-2a76-4225-b9ba-26c57869f278"
@@ -3981,16 +4053,6 @@
 				(justify left)
 			)
 			(uuid "477d9659-7fa4-41c1-bfb4-d22ab9da4639")
-		)
-		(pin "I2CADDR" input
-			(at 134.62 81.28 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "08aa159e-69b6-44cb-84d4-9e5f3fab78ad")
 		)
 		(pin "RST" input
 			(at 134.62 88.9 180)
@@ -4079,6 +4141,16 @@
 				(justify right)
 			)
 			(uuid "6a197222-daab-4329-a764-df0fcf643c38")
+		)
+		(pin "RDY{slash}~{BSY}" output
+			(at 96.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08233d45-4040-4248-b405-163adfd6f0c5")
 		)
 		(instances
 			(project "Peanut"

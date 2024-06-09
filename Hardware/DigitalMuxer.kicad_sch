@@ -512,177 +512,6 @@
 				)
 			)
 		)
-		(symbol "PartsLib:LED_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Peanut:GND"
 			(power)
 			(pin_numbers hide)
@@ -815,6 +644,175 @@
 				)
 			)
 		)
+		(symbol "Peanut:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Peanut:Push_Button"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -853,8 +851,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Common 6mmx6mm Push Button"
-				(at 0 0 0)
+			(property "Description" "Tactile Button"
+				(at 0 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1020,8 +1018,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2.2kΩ, 1/4W Resistor"
-				(at 0 0 0)
+			(property "Description" "Resistor"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1137,8 +1135,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SPDT Slide Switch with 10mm length, 5mm width and 10mm hight."
-				(at 0 0 0)
+			(property "Description" "SPDT Slide Switch"
+				(at 0 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1315,7 +1313,7 @@
 		(uuid "1cc82f8b-ddde-4ebc-9ebc-8be3c82b7d3f")
 	)
 	(junction
-		(at 99.06 27.94)
+		(at 99.06 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "308dff9c-cab3-4d3f-885a-b73a4112cc6a")
@@ -1345,16 +1343,16 @@
 		(uuid "63303506-8d3e-47ed-bc1b-9fe72706399d")
 	)
 	(junction
-		(at 101.6 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67546ecf-7fae-4b88-86d4-aecd82c6e58f")
-	)
-	(junction
-		(at 110.49 35.56)
+		(at 111.76 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bd76c2f-47e6-4074-b91c-5a04cf75d158")
+	)
+	(junction
+		(at 101.6 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "787b4cf4-9dc7-4b83-a2d1-0e05c29a0371")
 	)
 	(junction
 		(at 154.94 139.7)
@@ -1369,13 +1367,19 @@
 		(uuid "7a6930dd-afa9-4af8-93b1-f4c3f7f730dc")
 	)
 	(junction
+		(at 111.76 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8813b464-54cc-46f8-a522-8cfe3a120cc4")
+	)
+	(junction
 		(at 149.86 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95eca13f-9a55-4415-be4b-f7119431dc9b")
 	)
 	(junction
-		(at 167.64 44.45)
+		(at 185.42 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c8e50f7-db48-466d-9e7a-17d09f7c7adb")
@@ -1384,7 +1388,7 @@
 		(at 158.75 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a333101a-a38a-4ed2-95a7-712b3aeb50e2")
+		(uuid "9e552af9-8471-4bc6-afb4-95a302b6cbbd")
 	)
 	(junction
 		(at 154.94 107.95)
@@ -1409,12 +1413,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d29df26f-eb98-4554-933a-8e8724adf37a")
-	)
-	(junction
-		(at 110.49 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de06398c-bf39-4c6e-95e9-308ccd587948")
 	)
 	(junction
 		(at 154.94 119.38)
@@ -1452,10 +1450,6 @@
 		(color 0 0 0 0)
 		(uuid "fdcb7820-3408-4d99-946e-c5d9b61df84d")
 	)
-	(no_connect
-		(at 67.31 78.74)
-		(uuid "178b7f48-7962-4f1b-906c-f10026bd3927")
-	)
 	(wire
 		(pts
 			(xy 154.94 139.7) (xy 154.94 148.59)
@@ -1465,16 +1459,6 @@
 			(type default)
 		)
 		(uuid "015c14fb-b817-4746-8540-3d1e70b36810")
-	)
-	(wire
-		(pts
-			(xy 158.75 58.42) (xy 161.29 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "073dbbc2-52c2-4c69-a0d7-23d7d60b177d")
 	)
 	(wire
 		(pts
@@ -1498,7 +1482,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 35.56) (xy 120.65 35.56)
+			(xy 111.76 34.29) (xy 101.6 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1528,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 27.94) (xy 99.06 27.94)
+			(xy 96.52 41.91) (xy 99.06 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1545,16 +1529,6 @@
 			(type default)
 		)
 		(uuid "14aa9a95-0dea-4e1e-9fae-956dab114764")
-	)
-	(wire
-		(pts
-			(xy 120.65 27.94) (xy 110.49 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b75eb1e-aa7c-4af6-b6c3-d7b00c501e28")
 	)
 	(wire
 		(pts
@@ -1608,16 +1582,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 53.34) (xy 158.75 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cc757e0-32c8-4fb7-89fd-9acccb877db5")
-	)
-	(wire
-		(pts
 			(xy 154.94 107.95) (xy 154.94 119.38)
 		)
 		(stroke
@@ -1648,33 +1612,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 27.94) (xy 101.6 27.94)
+			(xy 99.06 41.91) (xy 101.6 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31b151b2-f2c5-4e7b-9571-13277defb9a1")
-	)
-	(wire
-		(pts
-			(xy 176.53 53.34) (xy 176.53 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "393090f2-13f1-43bb-aeaa-7d9549955d61")
-	)
-	(wire
-		(pts
-			(xy 167.64 53.34) (xy 167.64 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9e4faa-f802-432c-8805-c1171971c117")
 	)
 	(wire
 		(pts
@@ -1695,16 +1639,6 @@
 			(type default)
 		)
 		(uuid "3ddd7129-6f56-4e4c-a587-a06be5f2c936")
-	)
-	(wire
-		(pts
-			(xy 166.37 58.42) (xy 167.64 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "438e650f-5ba2-4cbc-9ec5-5af04e9b4e1f")
 	)
 	(wire
 		(pts
@@ -1755,6 +1689,16 @@
 			(type default)
 		)
 		(uuid "4b5de959-9a4d-4af0-8bfb-71f8f767d386")
+	)
+	(wire
+		(pts
+			(xy 111.76 58.42) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e621f28-d12f-4ef2-8ac4-81ba2cc456f2")
 	)
 	(wire
 		(pts
@@ -1815,6 +1759,16 @@
 			(type default)
 		)
 		(uuid "575aa732-069d-4035-b867-7656696372c2")
+	)
+	(wire
+		(pts
+			(xy 111.76 41.91) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a8de56-dc2d-4732-a77f-65a4060d0cbc")
 	)
 	(wire
 		(pts
@@ -1888,16 +1842,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 27.94) (xy 110.49 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fa0040-0438-41d5-b87d-e1c3f75524b4")
-	)
-	(wire
-		(pts
 			(xy 154.94 119.38) (xy 154.94 124.46)
 		)
 		(stroke
@@ -1928,17 +1872,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 58.42) (xy 158.75 58.42)
+			(xy 194.31 53.34) (xy 194.31 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "811d4340-d32b-4f23-a7d4-e0ea9c71078a")
+		(uuid "7d70fca3-3a1b-40e8-9f19-83f4627d887d")
 	)
 	(wire
 		(pts
-			(xy 167.64 44.45) (xy 176.53 44.45)
+			(xy 185.42 44.45) (xy 194.31 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1948,13 +1892,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 45.72) (xy 176.53 44.45)
+			(xy 194.31 45.72) (xy 194.31 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "84fbabdb-741c-4307-93de-c870b146a51d")
+	)
+	(wire
+		(pts
+			(xy 101.6 41.91) (xy 111.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863fdf7c-6ad0-4b61-aad8-90f370dbc196")
 	)
 	(wire
 		(pts
@@ -1965,6 +1919,16 @@
 			(type default)
 		)
 		(uuid "866ed088-4299-41d2-ac72-a329fbcf3803")
+	)
+	(wire
+		(pts
+			(xy 182.88 60.96) (xy 194.31 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8931e46e-03a3-4e85-bb2b-1066bed26ade")
 	)
 	(wire
 		(pts
@@ -1988,13 +1952,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 170.18 60.96)
+			(xy 158.75 44.45) (xy 185.42 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "938a53f3-1608-41f0-b044-d5a7ec06970e")
+		(uuid "93ce56c8-dec3-4d61-a095-e8b91ca68b53")
 	)
 	(wire
 		(pts
@@ -2038,16 +2002,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 60.96) (xy 175.26 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0042b29-a9a7-495e-baf0-0061b70a7e28")
-	)
-	(wire
-		(pts
 			(xy 81.28 71.12) (xy 81.28 87.63)
 		)
 		(stroke
@@ -2078,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 27.94) (xy 99.06 44.45)
+			(xy 99.06 41.91) (xy 99.06 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2115,6 +2069,26 @@
 			(type default)
 		)
 		(uuid "aa3fdb00-417f-4710-a1bf-c64a8c1f28c1")
+	)
+	(wire
+		(pts
+			(xy 185.42 53.34) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fc4b09-8ebc-425f-9123-3c7f09e4a52e")
+	)
+	(wire
+		(pts
+			(xy 111.76 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51ddd2f-6af2-41d0-ba94-7b5aa8fbe5a5")
 	)
 	(wire
 		(pts
@@ -2178,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 44.45) (xy 167.64 45.72)
+			(xy 185.42 44.45) (xy 185.42 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2188,23 +2162,33 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 114.3 63.5)
+			(xy 149.86 60.96) (xy 175.26 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3b6eb8c-93ff-46f8-9b5d-d4a508d82d08")
+		(uuid "c25fac73-08db-473c-ba28-440421315003")
 	)
 	(wire
 		(pts
-			(xy 101.6 35.56) (xy 110.49 35.56)
+			(xy 120.65 34.29) (xy 111.76 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8f0292e-9ce6-4c65-9cc8-59e5def1bedb")
+	)
+	(wire
+		(pts
+			(xy 172.72 58.42) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc67313c-c2ae-4166-8708-cbdad90855f3")
 	)
 	(wire
 		(pts
@@ -2298,6 +2282,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 58.42) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed00ff9b-c8ba-42a8-81e7-131516fa07a5")
+	)
+	(wire
+		(pts
 			(xy 138.43 119.38) (xy 140.97 119.38)
 		)
 		(stroke
@@ -2308,16 +2302,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 44.45) (xy 167.64 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f136b458-6a3b-4336-9747-73b931b630e7")
-	)
-	(wire
-		(pts
 			(xy 138.43 92.71) (xy 154.94 92.71)
 		)
 		(stroke
@@ -2325,6 +2309,16 @@
 			(type default)
 		)
 		(uuid "f2718e4d-1482-4f34-bd29-97757000f097")
+	)
+	(wire
+		(pts
+			(xy 158.75 58.42) (xy 158.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f361ef31-bec7-4c8f-a07a-ba8b3b7f0b8f")
 	)
 	(wire
 		(pts
@@ -2347,8 +2341,8 @@
 		(uuid "fb909221-3c1c-4215-b3bc-46072640590d")
 	)
 	(rectangle
-		(start 140.97 40.64)
-		(end 184.15 66.04)
+		(start 139.7 40.64)
+		(end 203.2 66.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -2369,6 +2363,16 @@
 			(type none)
 		)
 		(uuid 578cc7cb-bedd-45be-9fb6-5897e3bf5ed7)
+	)
+	(text "Reset Pin"
+		(exclude_from_sim no)
+		(at 73.66 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46051996-7780-48bb-b8cd-e7fbaf9bbb57")
 	)
 	(text "Include resistor, or without?\n"
 		(exclude_from_sim no)
@@ -2392,7 +2396,7 @@
 	)
 	(text "2 User-Configurable LEDs from I2C"
 		(exclude_from_sim no)
-		(at 163.068 35.814 0)
+		(at 168.91 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2402,7 +2406,7 @@
 	)
 	(text "High-value resistor in parallel to reduce power consumption\n"
 		(exclude_from_sim no)
-		(at 163.068 39.116 0)
+		(at 173.228 42.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2419,17 +2423,6 @@
 			)
 		)
 		(uuid "e479ebe3-5ad1-4406-80b8-4fffe94ad057")
-	)
-	(label "Reset pin"
-		(at 68.58 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "976f22d4-ae0d-4099-9476-40ca7426b898")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -2479,9 +2472,21 @@
 		)
 		(uuid "ef21891f-d142-4cf0-bdf6-b85cdf200104")
 	)
+	(hierarchical_label "~{INT}"
+		(shape output)
+		(at 67.31 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f673d370-f1d1-4a3a-84e9-5877ddbfa5fb")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 96.52 27.94 180)
+		(at 96.52 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2534,7 +2539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Common 6mmx6mm Push Button"
+		(property "Description" "Tactile Button"
 			(at 146.05 119.38 0)
 			(effects
 				(font
@@ -2715,7 +2720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
+		(property "Description" "Resistor"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -2784,7 +2789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
+		(property "Description" "Resistor"
 			(at 138.43 144.78 0)
 			(effects
 				(font
@@ -2810,7 +2815,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 31.75 0)
+		(at 111.76 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2819,7 +2824,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b25a563-b116-47e3-a125-efe35a9ca525")
 		(property "Reference" "C9"
-			(at 114.3 30.4799 0)
+			(at 107.95 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2833,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 114.3 33.0199 0)
+			(at 107.95 36.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2842,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 111.4552 35.56 0)
+			(at 110.7948 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 31.75 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2860,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 110.49 31.75 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +2926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Common 6mmx6mm Push Button"
+		(property "Description" "Tactile Button"
 			(at 146.05 135.89 0)
 			(effects
 				(font
@@ -2988,7 +2993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Common 6mmx6mm Push Button"
+		(property "Description" "Tactile Button"
 			(at 146.05 104.14 0)
 			(effects
 				(font
@@ -3124,7 +3129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
+		(property "Description" "Resistor"
 			(at 149.86 49.53 0)
 			(effects
 				(font
@@ -3191,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SPDT Slide Switch with 10mm length, 5mm width and 10mm hight."
+		(property "Description" "SPDT Slide Switch"
 			(at 147.32 151.13 0)
 			(effects
 				(font
@@ -3286,7 +3291,7 @@
 	)
 	(symbol
 		(lib_id "Peanut:R")
-		(at 176.53 49.53 270)
+		(at 194.31 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3295,7 +3300,7 @@
 		(fields_autoplaced yes)
 		(uuid "87289f26-4920-4387-a78e-2621f09b318f")
 		(property "Reference" "R12"
-			(at 179.07 48.2599 90)
+			(at 196.85 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3309,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 179.07 50.7999 90)
+			(at 196.85 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3318,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 172.212 50.419 0)
+			(at 189.992 50.419 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 50.038 0)
+			(at 194.31 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,8 +3335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
-			(at 176.53 49.53 0)
+		(property "Description" "Resistor"
+			(at 194.31 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3361,7 @@
 	)
 	(symbol
 		(lib_id "Peanut:GND")
-		(at 110.49 35.56 0)
+		(at 111.76 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3365,7 +3370,7 @@
 		(fields_autoplaced yes)
 		(uuid "9104ca36-aca3-4780-b1fd-7f5ff00ba36b")
 		(property "Reference" "#PWR08"
-			(at 110.49 41.91 0)
+			(at 111.76 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3379,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 40.64 0)
+			(at 111.76 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 35.56 0)
+			(at 111.76 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +3396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 35.56 0)
+			(at 111.76 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 44.196 0)
+			(at 111.76 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,8 +3426,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PartsLib:LED_Small")
-		(at 172.72 60.96 0)
+		(lib_id "Peanut:LED")
+		(at 179.07 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3431,7 +3436,7 @@
 		(fields_autoplaced yes)
 		(uuid "978576dc-da90-4ba9-ba85-49f6f035ced9")
 		(property "Reference" "D2"
-			(at 172.7835 54.61 0)
+			(at 177.4825 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3444,7 @@
 			)
 		)
 		(property "Value" "GRN"
-			(at 172.7835 57.15 0)
+			(at 177.4825 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3452,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 172.72 60.96 90)
+			(at 179.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 60.96 90)
+			(at 179.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,8 +3469,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 172.72 55.118 0)
+		(property "Description" "Light emitting diode"
+			(at 179.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3495,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 31.75 0)
+		(at 101.6 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3499,7 +3504,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f09acbb-15e6-4197-9a6f-038af28e01ea")
 		(property "Reference" "C10"
-			(at 124.46 30.4799 0)
+			(at 97.79 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3513,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 124.46 33.0199 0)
+			(at 97.79 36.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3522,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 121.6152 35.56 0)
+			(at 100.6348 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3531,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 31.75 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +3540,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 31.75 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3573,7 @@
 		(dnp no)
 		(uuid "a56eb6c0-1184-49eb-81e1-a506c42d6a11")
 		(property "Reference" "R10"
-			(at 161.29 48.2599 90)
+			(at 160.782 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3582,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 160.274 50.8 90)
+			(at 160.528 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
+		(property "Description" "Resistor"
 			(at 158.75 49.53 0)
 			(effects
 				(font
@@ -3672,7 +3677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
+		(property "Description" "Resistor"
 			(at 138.43 97.79 0)
 			(effects
 				(font
@@ -3741,7 +3746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
+		(property "Description" "Resistor"
 			(at 138.43 113.03 0)
 			(effects
 				(font
@@ -3767,7 +3772,7 @@
 	)
 	(symbol
 		(lib_id "Peanut:R")
-		(at 167.64 49.53 270)
+		(at 185.42 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3776,7 +3781,7 @@
 		(fields_autoplaced yes)
 		(uuid "bae15f96-c509-436a-8fad-dea00ef0e3e7")
 		(property "Reference" "R11"
-			(at 170.18 48.2599 90)
+			(at 187.96 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3790,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 170.18 50.7999 90)
+			(at 187.96 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3799,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 163.322 50.419 0)
+			(at 181.102 50.419 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 50.038 0)
+			(at 185.42 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,8 +3816,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
-			(at 167.64 49.53 0)
+		(property "Description" "Resistor"
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
+		(property "Description" "Resistor"
 			(at 138.43 129.54 0)
 			(effects
 				(font
@@ -3906,7 +3911,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 101.6 31.75 0)
+		(at 120.65 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3915,7 +3920,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce801355-d90c-41fd-a7d4-c38aef51ffbe")
 		(property "Reference" "C8"
-			(at 105.41 30.4799 0)
+			(at 116.84 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3929,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 105.41 33.0199 0)
+			(at 116.84 36.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3938,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 102.5652 35.56 0)
+			(at 119.6848 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 31.75 0)
+			(at 120.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3956,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 31.75 0)
+			(at 120.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,8 +3980,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PartsLib:LED_Small")
-		(at 163.83 58.42 0)
+		(lib_id "Peanut:LED")
+		(at 168.91 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3985,7 +3990,7 @@
 		(fields_autoplaced yes)
 		(uuid "d182e9ea-df13-4606-9d0d-6703508f3f67")
 		(property "Reference" "D1"
-			(at 163.8935 52.07 0)
+			(at 167.3225 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3998,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 163.8935 54.61 0)
+			(at 167.3225 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +4006,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 163.83 58.42 90)
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 58.42 90)
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,8 +4023,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 163.83 52.578 0)
+		(property "Description" "Light emitting diode"
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Common 6mmx6mm Push Button"
+		(property "Description" "Tactile Button"
 			(at 146.05 88.9 0)
 			(effects
 				(font

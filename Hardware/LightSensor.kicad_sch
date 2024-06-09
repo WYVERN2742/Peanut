@@ -316,8 +316,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Ambient Light Sensor"
+				(at 20.32 12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -657,7 +657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ambient Light Sensor"
 			(at 96.52 82.55 0)
 			(effects
 				(font

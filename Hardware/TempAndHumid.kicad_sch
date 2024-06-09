@@ -315,8 +315,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Temperature & Humidity Sensor"
+				(at 0 15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -325,7 +325,7 @@
 				)
 			)
 			(property "PARTREV" "C"
-				(at 19.304 12.446 0)
+				(at -4.826 -28.956 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -345,7 +345,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "0.675 mm"
-				(at 20.32 17.526 0)
+				(at 0.508 -17.272 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -355,7 +355,7 @@
 				)
 			)
 			(property "STANDARD" "IPC 7351B"
-				(at 19.558 14.732 0)
+				(at -0.254 -19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -924,7 +924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Temperature & Humidity Sensor"
 			(at 129.54 90.17 0)
 			(effects
 				(font

@@ -683,8 +683,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 11.43 0 0)
+			(property "Description" "4-Channel DAC"
+				(at 34.29 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -940,10 +940,6 @@
 		(color 0 0 0 0)
 		(uuid "cb503e80-7e20-4b72-b2f8-aa70e38271f1")
 	)
-	(no_connect
-		(at 86.36 99.06)
-		(uuid "c03007e6-d98a-4d1a-9159-e04ed1e46ebb")
-	)
 	(wire
 		(pts
 			(xy 68.58 88.9) (xy 68.58 86.36)
@@ -1096,6 +1092,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 99.06) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbce7f2-aa80-4e3d-bc54-e602b99663eb")
+	)
+	(wire
+		(pts
 			(xy 147.32 96.52) (xy 147.32 93.98)
 		)
 		(stroke
@@ -1226,7 +1232,7 @@
 	)
 	(text "Maxium Vout of 24mA"
 		(exclude_from_sim no)
-		(at 130.81 101.6 0)
+		(at 128.27 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1299,6 +1305,18 @@
 			(justify right)
 		)
 		(uuid "a7d06c12-d47e-400e-b4d5-19967741c538")
+	)
+	(hierarchical_label "RDY{slash}~{BSY}"
+		(shape output)
+		(at 80.01 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d34cc28e-7af3-4037-9367-352e710f1b40")
 	)
 	(symbol
 		(lib_id "Peanut:GND")
@@ -1478,7 +1496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4-Channel DAC"
 			(at 86.36 88.9 0)
 			(effects
 				(font
