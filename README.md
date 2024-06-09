@@ -47,12 +47,12 @@ A prime design point is to also provide capability for extensions; such as solar
 	- [x] Push Buttons
 	- [x] Switch
 	- [x] LEDs
-- [ ] DAC
-	- [ ] Audio Jack
-	- [ ] Piezo
-- [ ] ADC
-	- [ ] Pressure Sensor
-	- [ ] Battery Monitor
+- [x] DAC
+	- [x] Audio Jack
+	- [x] Piezo
+- [x] ADC
+	- [x] Pressure Sensor
+	- [x] Battery Monitor
 
 ## Design Goals
 
