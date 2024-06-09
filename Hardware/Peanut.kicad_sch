@@ -1359,6 +1359,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 132.08) (xy 165.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d29173d-6c7d-4c16-b257-283069e126aa")
+	)
+	(wire
+		(pts
 			(xy 137.16 31.75) (xy 137.16 30.48)
 		)
 		(stroke
@@ -1559,6 +1569,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 132.08) (xy 165.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea650a4-a55e-450d-bb39-716e20a088d3")
+	)
+	(wire
+		(pts
 			(xy 175.26 38.1) (xy 177.8 38.1)
 		)
 		(stroke
@@ -1566,6 +1586,16 @@
 			(type default)
 		)
 		(uuid "99ad0de9-46f6-4beb-ba9f-6b02d5fbe4b0")
+	)
+	(wire
+		(pts
+			(xy 165.1 152.4) (xy 162.56 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22838de-3be5-433c-a506-d72c32983461")
 	)
 	(wire
 		(pts
@@ -1868,6 +1898,16 @@
 			)
 		)
 		(uuid "e90f8782-c732-482c-b448-38dbd1562130")
+	)
+	(text "Battery Measurement Toggle"
+		(exclude_from_sim no)
+		(at 166.878 143.002 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed860890-bfbe-4bed-b34c-76817169638e")
 	)
 	(global_label "UART_RX"
 		(shape bidirectional)
@@ -3708,6 +3748,16 @@
 			)
 			(uuid "1c93345f-b6da-4b6a-a450-de0cc879f202")
 		)
+		(pin "P2" output
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea796608-97f6-4293-8f2f-ae1695f88ebf")
+		)
 		(instances
 			(project "Peanut"
 				(path "/298ef215-2a76-4225-b9ba-26c57869f278"
@@ -3853,6 +3903,16 @@
 				(justify left)
 			)
 			(uuid "fb7bd8e6-84aa-4c7c-8ede-00e3e4209548")
+		)
+		(pin "P2" input
+			(at 162.56 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a913b3f-939f-4b6a-b026-a5ab8530bd4b")
 		)
 		(instances
 			(project "Peanut"

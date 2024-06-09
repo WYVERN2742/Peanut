@@ -1303,12 +1303,6 @@
 		(uuid "083405ca-11ef-45f7-810c-0440fc75a1c1")
 	)
 	(junction
-		(at 140.97 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c296389-7f80-4c09-91d1-18ae898ee647")
-	)
-	(junction
 		(at 138.43 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1343,12 +1337,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "447984cd-e8ca-4d63-a005-37c5c0d41204")
-	)
-	(junction
-		(at 140.97 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "530b6a16-d82c-4a5a-8dfc-cf4c2071d436")
 	)
 	(junction
 		(at 138.43 135.89)
@@ -1429,12 +1417,6 @@
 		(uuid "de06398c-bf39-4c6e-95e9-308ccd587948")
 	)
 	(junction
-		(at 176.53 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4198679-ace5-4179-a9bf-1413b6e2132d")
-	)
-	(junction
 		(at 154.94 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1473,16 +1455,6 @@
 	(no_connect
 		(at 67.31 78.74)
 		(uuid "178b7f48-7962-4f1b-906c-f10026bd3927")
-	)
-	(wire
-		(pts
-			(xy 140.97 53.34) (xy 140.97 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "012ddaa3-0df0-402d-9fdc-353272c9b40d")
 	)
 	(wire
 		(pts
@@ -1746,16 +1718,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 44.45) (xy 185.42 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "460370ab-ad28-4bb0-9b8c-161745cf08b2")
-	)
-	(wire
-		(pts
 			(xy 99.06 87.63) (xy 99.06 90.17)
 		)
 		(stroke
@@ -1803,16 +1765,6 @@
 			(type default)
 		)
 		(uuid "4f0e1d6f-a754-4e13-8d95-a0d308be14be")
-	)
-	(wire
-		(pts
-			(xy 140.97 63.5) (xy 179.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c85bfc-b9ba-4f39-a46c-d39ad576e09e")
 	)
 	(wire
 		(pts
@@ -1873,16 +1825,6 @@
 			(type default)
 		)
 		(uuid "59231a5a-e5a6-423d-b2de-002a88ca72be")
-	)
-	(wire
-		(pts
-			(xy 111.76 63.5) (xy 140.97 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c5c5ee-31f7-4e61-8491-2a96225eb343")
 	)
 	(wire
 		(pts
@@ -1966,7 +1908,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 44.45) (xy 140.97 44.45)
+			(xy 99.06 44.45) (xy 149.86 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1983,26 +1925,6 @@
 			(type default)
 		)
 		(uuid "72ad2270-9de6-4fd4-83b0-006c7e47419c")
-	)
-	(wire
-		(pts
-			(xy 140.97 45.72) (xy 140.97 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74814112-5fa1-4c3d-b051-9bb031ce83cc")
-	)
-	(wire
-		(pts
-			(xy 140.97 44.45) (xy 149.86 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80ff742f-2061-44a0-8501-7ecfa67c2207")
 	)
 	(wire
 		(pts
@@ -2076,16 +1998,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 53.34) (xy 185.42 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93bac02b-52fe-4f70-83d2-36bc21c8742f")
-	)
-	(wire
-		(pts
 			(xy 138.43 119.38) (xy 125.73 119.38)
 		)
 		(stroke
@@ -2103,16 +2015,6 @@
 			(type default)
 		)
 		(uuid "9da2d624-9bb7-4533-b4c6-27c077cc5bba")
-	)
-	(wire
-		(pts
-			(xy 176.53 44.45) (xy 185.42 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e5287e9-f811-4eff-b3e4-6929023253f9")
 	)
 	(wire
 		(pts
@@ -2286,6 +2188,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b6eb8c-93ff-46f8-9b5d-d4a508d82d08")
+	)
+	(wire
+		(pts
 			(xy 101.6 35.56) (xy 110.49 35.56)
 		)
 		(stroke
@@ -2376,16 +2288,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 63.5) (xy 184.15 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9949044-7c03-46c7-8869-4e78e06bcf44")
-	)
-	(wire
-		(pts
 			(xy 111.76 60.96) (xy 149.86 60.96)
 		)
 		(stroke
@@ -2445,8 +2347,8 @@
 		(uuid "fb909221-3c1c-4215-b3bc-46072640590d")
 	)
 	(rectangle
-		(start 139.7 40.64)
-		(end 203.2 66.04)
+		(start 140.97 40.64)
+		(end 184.15 66.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -2488,9 +2390,9 @@
 		)
 		(uuid "5a70cf22-2681-4ec4-9c53-ed7866be9d0e")
 	)
-	(text "3 User-Configurable LEDs from I2C"
+	(text "2 User-Configurable LEDs from I2C"
 		(exclude_from_sim no)
-		(at 168.91 39.37 0)
+		(at 163.068 35.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2500,7 +2402,7 @@
 	)
 	(text "High-value resistor in parallel to reduce power consumption\n"
 		(exclude_from_sim no)
-		(at 171.45 43.18 0)
+		(at 163.068 39.116 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2541,6 +2443,18 @@
 		)
 		(uuid "271f9b90-be80-4f38-a4b9-40c148b3d1e4")
 	)
+	(hierarchical_label "P2"
+		(shape output)
+		(at 114.3 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "283e604b-1332-409b-856a-da601f35c375")
+	)
 	(hierarchical_label "I2CSDA"
 		(shape bidirectional)
 		(at 68.58 60.96 180)
@@ -2576,76 +2490,6 @@
 			(justify right)
 		)
 		(uuid "fd0e4d5b-9953-4161-92c8-2b33c74252bd")
-	)
-	(symbol
-		(lib_id "Peanut:R")
-		(at 140.97 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a11c640-63bc-4c82-918a-61704dcd4a1d")
-		(property "Reference" "R8"
-			(at 143.51 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 143.51 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 136.652 50.419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
-			(at 140.97 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7d03ae7-75fa-4b76-8f6b-7c12b717d0a0")
-		)
-		(pin "2"
-			(uuid "564f2a21-df41-4bfb-a97b-e3de435b3f9e")
-		)
-		(instances
-			(project "Peanut"
-				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2018ec7d-ac26-4ef4-b47a-090f520689bc"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Peanut:Push_Button")
@@ -3375,76 +3219,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
-		(at 185.42 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7226d60c-12da-4ce2-91c2-28726a9dc9cc")
-		(property "Reference" "R13"
-			(at 187.96 48.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 187.96 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 181.102 50.419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2kΩ, 1/4W Resistor"
-			(at 185.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66e69e1c-9671-4e93-8eeb-a7f78da4effc")
-		)
-		(pin "2"
-			(uuid "4c723e8c-a744-4b6b-bedb-f29eda3b799f")
-		)
-		(instances
-			(project "Peanut"
-				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2018ec7d-ac26-4ef4-b47a-090f520689bc"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Peanut:GND")
 		(at 154.94 153.67 0)
 		(mirror y)
@@ -4125,74 +3899,6 @@
 			(project "Peanut"
 				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2018ec7d-ac26-4ef4-b47a-090f520689bc"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PartsLib:LED_Small")
-		(at 181.61 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdfc79ae-d64f-4733-aa28-b7be408ea885")
-		(property "Reference" "D3"
-			(at 181.6735 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLU"
-			(at 181.6735 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 181.61 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 181.61 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d318322c-d7d9-4bb9-81cd-c4cf5a82bc41")
-		)
-		(pin "1"
-			(uuid "cc09beb7-c6ce-49e9-92e7-ccaf5bc27bb5")
-		)
-		(instances
-			(project "Peanut"
-				(path "/298ef215-2a76-4225-b9ba-26c57869f278/2018ec7d-ac26-4ef4-b47a-090f520689bc"
-					(reference "D3")
 					(unit 1)
 				)
 			)
