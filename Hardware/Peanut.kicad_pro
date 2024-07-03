@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -509,7 +510,12 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 0, 0)",
+      "GND": "rgb(0, 194, 0)",
+      "SCL": "rgb(255, 153, 0)",
+      "SDA": "rgb(255, 153, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -538,6 +544,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

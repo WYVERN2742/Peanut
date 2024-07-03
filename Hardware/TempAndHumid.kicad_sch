@@ -5,7 +5,7 @@
 	(uuid "dc60d779-af90-4d24-8d63-8ff03bb00515")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Peanut:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -31,7 +31,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -810,7 +810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Peanut:C")
 		(at 162.56 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -837,7 +837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 163.5252 83.82 0)
 			(effects
 				(font

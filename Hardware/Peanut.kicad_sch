@@ -800,7 +800,7 @@
 					)
 				)
 			)
-			(property "Value" "Slide_Switch_SPDT_P3mm_10x5x10mm"
+			(property "Value" "Slide_Switch_SPDT"
 				(at -1.27 -5.08 0)
 				(effects
 					(font
@@ -808,7 +808,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
+			(property "Footprint" "Peanut:SW-TH_SK12D07VG4"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -2548,7 +2548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
+		(property "Footprint" "Peanut:SW-TH_SK12D07VG4"
 			(at 53.34 29.21 0)
 			(effects
 				(font

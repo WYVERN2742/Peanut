@@ -372,7 +372,7 @@
 				)
 			)
 		)
-		(symbol "Device:C"
+		(symbol "Peanut:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -398,7 +398,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -1620,7 +1620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Peanut:C")
 		(at 80.01 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1647,7 +1647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 80.9752 86.36 0)
 			(effects
 				(font
@@ -1826,7 +1826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Peanut:C")
 		(at 68.58 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1853,7 +1853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 69.5452 86.36 0)
 			(effects
 				(font
