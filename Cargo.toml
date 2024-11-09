@@ -12,6 +12,8 @@ embedded-hal = "=1.0.0"
 panic-halt = "0.2.0"
 riscv = "0.10.0"
 riscv-rt = "0.11.0"
+# pcf857x = {git= "https://github.com/eldruin/pcf857x-rs" }
+pcf857x = "0.4.0"
 
 # Thanks to https://github.com/melastmohican/pinecone-blinky for the `cargo fix` fix and optimisations
 [[bin]]

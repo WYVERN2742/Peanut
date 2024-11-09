@@ -27,8 +27,8 @@
 			"command": "blflash",
 			"args": [
 				"--release",
-				"--initial-baud-rate", "1000000",
-				"--baud-rate", "1000000",
+				"--initial-baud-rate", "115200",
+				"--baud-rate", "115200",
 				"--port", "COM3"
 			],
 			"problemMatcher": [
