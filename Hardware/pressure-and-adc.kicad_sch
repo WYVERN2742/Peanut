@@ -61,6 +61,14 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C193969"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "12 bit 4 channel I2C ADC"
 				(at 0 0 0)
 				(effects
@@ -275,7 +283,7 @@
 				)
 			)
 		)
-		(symbol "Peanut:C"
+		(symbol "Peanut:C 100nF"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -292,7 +300,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
+			(property "Value" "100nF"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -301,7 +309,151 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor 100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1525"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C 100nF_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C 100nF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Peanut:C 1uF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1uF"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -328,6 +480,14 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C52923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -346,7 +506,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C 1uF_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -372,7 +532,7 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C 1uF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -593,6 +753,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C5184576"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "inamp instrumentation ina amplifier INA350"
@@ -824,6 +992,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C19100510"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "LTR-303ALS-01"
@@ -1134,6 +1310,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C8326"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "transistor NPN"
@@ -2197,6 +2381,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5184576"
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "9eca82e3-8d09-4113-acac-14b9e75d33e9")
 		)
@@ -2292,6 +2484,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C19100510"
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2390,7 +2590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:C")
+		(lib_id "Peanut:C 100nF")
 		(at 99.06 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2400,7 +2600,7 @@
 		(fields_autoplaced yes)
 		(uuid "660cd118-806d-465c-862b-d4a0845a6e46")
 		(property "Reference" "C17"
-			(at 102.87 107.9499 0)
+			(at 102.87 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2609,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 102.87 110.4899 0)
+			(at 102.87 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 98.0948 105.41 0)
 			(effects
 				(font
@@ -2435,13 +2635,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 100nF"
 			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 102.87 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -2578,6 +2787,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8326"
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "64f3ad2f-b103-413d-ab2d-7a8f7db9787a")
 		)
@@ -2597,7 +2814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:C")
+		(lib_id "Peanut:C 100nF")
 		(at 191.77 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2607,7 +2824,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3c40b2b-cb63-43ba-82c0-7865e1953857")
 		(property "Reference" "C16"
-			(at 191.77 34.29 90)
+			(at 191.77 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,14 +2832,14 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 191.77 36.83 90)
+			(at 191.77 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 195.58 40.9448 0)
 			(effects
 				(font
@@ -2640,13 +2857,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 100nF"
 			(at 191.77 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 191.77 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2860,6 +3085,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C193969"
+			(at 156.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "849d4b57-6b74-4159-bd68-e92aac1b768e")
 		)
@@ -2966,7 +3199,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:C")
+		(lib_id "Peanut:C 1uF")
 		(at 161.29 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2976,7 +3209,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6443e87-6655-4a0e-b1ec-544870ba3f2c")
 		(property "Reference" "C13"
-			(at 161.29 46.99 90)
+			(at 161.29 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,14 +3217,14 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 161.29 49.53 90)
+			(at 161.29 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 165.1 53.6448 0)
 			(effects
 				(font
@@ -3016,6 +3249,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 161.29 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

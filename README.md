@@ -17,8 +17,8 @@ A prime design point is to also provide capability for extensions; such as solar
 
 - [x] Board Design & Specs
 - [x] Component sourcing
-- [ ] Electronic Schematics
-- [ ] Breadboard + Devkit prototyping
+- [x] Electronic Schematics
+- [x] Breadboard + Devkit prototyping
 - [ ] Prototype PCB with contact pads
 - [ ] Refinements and Debugging
 	- Continual Refinements until design works!

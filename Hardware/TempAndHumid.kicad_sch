@@ -5,7 +5,7 @@
 	(uuid "dc60d779-af90-4d24-8d63-8ff03bb00515")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Peanut:C"
+		(symbol "Peanut:C 1uF"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -22,7 +22,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
+			(property "Value" "1uF"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -31,7 +31,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -58,6 +58,14 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C52923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -76,7 +84,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C 1uF_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -102,7 +110,7 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C 1uF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -362,6 +370,14 @@
 					)
 					(justify bottom)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C477922"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "HDC2010YPAR_0_0"
@@ -810,7 +826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:C")
+		(lib_id "Peanut:C 1uF")
 		(at 162.56 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -820,7 +836,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a26b1bf-1c01-4fac-a7e3-e6f8074df198")
 		(property "Reference" "C11"
-			(at 166.37 78.7399 0)
+			(at 166.37 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,7 +845,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 166.37 81.2799 0)
+			(at 166.37 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.5252 83.82 0)
 			(effects
 				(font
@@ -862,6 +878,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 166.37 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -971,6 +996,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C477922"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A2"

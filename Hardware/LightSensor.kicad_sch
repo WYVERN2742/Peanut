@@ -5,7 +5,7 @@
 	(uuid "175562d8-940c-4ffd-a7bd-797c777517a1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Peanut:C"
+		(symbol "Peanut:C 1uF"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -22,7 +22,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
+			(property "Value" "1uF"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -31,7 +31,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -58,6 +58,14 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C52923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -76,7 +84,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C 1uF_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -102,7 +110,7 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C 1uF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -332,6 +340,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C364577"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "LTR-303ALS-01"
@@ -675,6 +691,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C364577"
+			(at 96.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "9d1a9b4c-6c96-4901-8517-7123174e8a40")
 		)
@@ -835,7 +859,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:C")
+		(lib_id "Peanut:C 1uF")
 		(at 80.01 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -845,7 +869,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec373ace-28ef-4a63-87f3-f85c350e5543")
 		(property "Reference" "C12"
-			(at 83.82 78.7399 0)
+			(at 83.82 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +878,7 @@
 			)
 		)
 		(property "Value" "1uf"
-			(at 83.82 81.2799 0)
+			(at 83.82 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.9752 83.82 0)
 			(effects
 				(font
@@ -887,6 +911,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 83.82 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"

@@ -904,7 +904,7 @@
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Horizontal.wrl"
 		(offset
-			(xyz 0 -7.5 0)
+			(xyz 0 -7.5 -1.5)
 		)
 		(scale
 			(xyz 1 1 1)

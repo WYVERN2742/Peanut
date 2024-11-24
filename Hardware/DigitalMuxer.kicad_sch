@@ -5,7 +5,7 @@
 	(uuid "26db4939-1353-4837-8654-4e9bb635dd1b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Peanut:C"
+		(symbol "Peanut:C 1uF"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -22,7 +22,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
+			(property "Value" "1uF"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -31,7 +31,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -58,6 +58,14 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C52923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -76,7 +84,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C 1uF_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -102,7 +110,7 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C 1uF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -501,6 +509,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C94361"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "PCF8574APWR"
@@ -944,6 +960,14 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C499327"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "Switch"
 				(at 0 0 0)
 				(effects
@@ -1064,7 +1088,7 @@
 				)
 			)
 		)
-		(symbol "Peanut:R"
+		(symbol "Peanut:R 100k"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1076,7 +1100,7 @@
 					)
 				)
 			)
-			(property "Value" "R"
+			(property "Value" "100k"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1111,6 +1135,14 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C60491"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "Resistor"
 				(at 0 0 0)
 				(effects
@@ -1129,7 +1161,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R 100k_0_1"
 				(rectangle
 					(start -2.286 0.889)
 					(end 2.286 -0.889)
@@ -1142,7 +1174,132 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R 100k_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Peanut:R 2.2k"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2.2k"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0.889 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.508 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25933"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R 2.2k_0_1"
+				(rectangle
+					(start -2.286 0.889)
+					(end 2.286 -0.889)
+					(stroke
+						(width 0.24)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R 2.2k_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.5)
@@ -1226,6 +1383,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C393937"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "switch"
@@ -2742,6 +2907,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C499327"
+			(at 146.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3e207d9-6457-403f-bdbf-64d3a660652c")
 		)
@@ -2758,7 +2931,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 100k")
 		(at 138.43 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2803,12 +2976,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 82.55 0)
+			(at 145.288 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2827,7 +3008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 100k")
 		(at 138.43 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2872,12 +3053,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 144.78 0)
+			(at 145.288 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2896,7 +3085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:C")
+		(lib_id "Peanut:C 1uF")
 		(at 111.76 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2906,7 +3095,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b25a563-b116-47e3-a125-efe35a9ca525")
 		(property "Reference" "C9"
-			(at 115.57 36.8299 0)
+			(at 115.57 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +3104,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 115.57 39.3699 0)
+			(at 115.57 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3112,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.7948 34.29 0)
 			(effects
 				(font
@@ -2948,6 +3137,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 115.57 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -3018,6 +3216,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C499327"
+			(at 146.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d57bc36-8ee9-4b4b-8189-65565fab3f3a")
 		)
@@ -3083,6 +3289,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C499327"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3167,7 +3381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 100k")
 		(at 149.86 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3177,7 +3391,7 @@
 		(fields_autoplaced yes)
 		(uuid "5065c311-68ec-4c36-bfc7-e6f54e30868d")
 		(property "Reference" "R9"
-			(at 152.4 48.2599 90)
+			(at 152.4 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3400,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 152.4 50.7999 90)
+			(at 152.4 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,12 +3427,21 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 49.53 0)
+			(at 156.718 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 152.4 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3298,6 +3521,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C94361"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "16"
@@ -3421,6 +3652,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C393937"
+			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "16199b3c-25e3-449f-95a6-f68861e8b71f")
 		)
@@ -3506,7 +3745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 2.2k")
 		(at 194.31 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3516,7 +3755,7 @@
 		(fields_autoplaced yes)
 		(uuid "87289f26-4920-4387-a78e-2621f09b318f")
 		(property "Reference" "R12"
-			(at 196.85 48.2599 90)
+			(at 196.85 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3764,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 196.85 50.7999 90)
+			(at 196.85 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,12 +3791,21 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 49.53 0)
+			(at 201.168 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C25933"
+			(at 196.85 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3710,7 +3958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:C")
+		(lib_id "Peanut:C 1uF")
 		(at 101.6 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3720,7 +3968,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f09acbb-15e6-4197-9a6f-038af28e01ea")
 		(property "Reference" "C10"
-			(at 105.41 36.8299 0)
+			(at 105.41 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3977,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 105.41 39.3699 0)
+			(at 105.41 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +3985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.6348 34.29 0)
 			(effects
 				(font
@@ -3764,6 +4012,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 105.41 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "1"
 			(uuid "cac5adb0-4bd7-4a24-af30-383c1782c540")
 		)
@@ -3780,7 +4037,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 100k")
 		(at 158.75 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3825,12 +4082,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 49.53 0)
+			(at 165.608 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3849,7 +4114,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 100k")
 		(at 138.43 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3894,12 +4159,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 97.79 0)
+			(at 145.288 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3918,7 +4191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 100k")
 		(at 138.43 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3963,12 +4236,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 113.03 0)
+			(at 145.288 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3987,7 +4268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 2.2k")
 		(at 185.42 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3997,7 +4278,7 @@
 		(fields_autoplaced yes)
 		(uuid "bae15f96-c509-436a-8fad-dea00ef0e3e7")
 		(property "Reference" "R11"
-			(at 187.96 48.2599 90)
+			(at 187.96 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4287,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 187.96 50.7999 90)
+			(at 187.96 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,12 +4314,21 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 185.42 49.53 0)
+			(at 192.278 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C25933"
+			(at 187.96 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -4057,7 +4347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 100k")
 		(at 138.43 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4102,12 +4392,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 129.54 0)
+			(at 145.288 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 138.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4126,7 +4424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:C")
+		(lib_id "Peanut:C 1uF")
 		(at 120.65 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4136,7 +4434,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce801355-d90c-41fd-a7d4-c38aef51ffbe")
 		(property "Reference" "C8"
-			(at 124.46 36.8299 0)
+			(at 124.46 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4443,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 124.46 39.3699 0)
+			(at 124.46 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4451,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.6848 34.29 0)
 			(effects
 				(font
@@ -4178,6 +4476,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 124.46 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -4313,6 +4620,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C499327"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
