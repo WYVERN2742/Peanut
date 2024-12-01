@@ -1,42 +1,61 @@
 const ARVR_STABILIZATION_GRV: u16 = 0x3E2E;
 
-struct sh2 {
+pub type SensorId = u8;
+
+/// Input report produced by Game Rotation Vector 
+pub struct Sh2GameRotationVector {
+	/// Quarternion i component
+	quat_i: u16, 
+
+ 	/// Quarternion j component
+	quat_j: u16,
+
+	/// Quarternion k component
+	quat_k: u16,
+
+	/// Quarternion real component
+	quat_real: u16,
+}
+
+pub enum RecordType {
+	GameRotation(Sh2GameRotationVector)
+}
+
+/// Structure of data received from 
+/// Sh2 sensors.
+pub struct Sh2SensorValue {
+
+	/// ID of the sensor that produced this event.
+	sensor_id: SensorId,
+
+	/// Increments once for each report sent. 
+	/// Gaps in the sequence number indicate missing
+	/// or dropped reports.
+	sequence: u8,
+
+	/// Status of the sensor
+	/// 0 - Unreliable
+	/// 1 - Low Accuracy
+	/// 2 - Medium Accuracy
+	/// 3 - High Accuracy
+	status: u8,
+
+	/// [uS]
+	timestamp: u64,
+
+	/// [uS] value is delay * 2^exponent (see status)
+	delay: u32,
+
+	/// Data received from 
+	data: RecordType,
+}
+
+pub struct Sh2 {
 	
 }
 
-impl sh2 {
-	pub fn new() -> sh2 {
-
-	}
-
-	pub fn device_reset(address: SevenBitAddress);
-	pub fn device_on(address: SevenBitAddress);
-	pub fn device_sleep(address: SevenBitAddress);
-	pub fn device_open(address: SevenBitAddress);
-	pub fn device_close(address: SevenBitAddress);
-	pub fn device_service(address: SevenBitAddress);
-	pub fn get_product_id(address: SevenBitAddress);
-	pub fn get_sensor_config(address: SevenBitAddress);
-	pub fn set_sensor_config(address: SevenBitAddress);
-	pub fn get_metadata(address: SevenBitAddress);
-	pub fn get_flash_record(address: SevenBitAddress);
-	pub fn set_flash_record(address: SevenBitAddress);
-	pub fn get_errors(address: SevenBitAddress);
-	pub fn get_counts(address: SevenBitAddress);
-	pub fn clear_counts(address: SevenBitAddress);
-	pub fn set_tare(address: SevenBitAddress);
-	pub fn clear_tare(address: SevenBitAddress);
-	pub fn persist_tare(address: SevenBitAddress);
-	pub fn set_reorientation(address: SevenBitAddress);
-	pub fn reinitialize(address: SevenBitAddress);
-	pub fn save_dynamic_calibration(address: SevenBitAddress);
-	pub fn get_oscillator_type(address: SevenBitAddress);
-	pub fn set_calibration_config(address: SevenBitAddress);
-	pub fn get_calibration_config(address: SevenBitAddress);
-	pub fn set_dynamic_calibration_auto_save(address: SevenBitAddress);
-	pub fn flush(address: SevenBitAddress);
-	pub fn clear_and_reset_dynamic_calibration(address: SevenBitAddress);
-	pub fn start_calibration(address: SevenBitAddress);
-	pub fn finish_calibration(address: SevenBitAddress);
-	pub fn set_interactive_zro(address: SevenBitAddress);
+impl Sh2 {
+	// pub fn new() -> Sh2 {
+		
+	// }
 }
