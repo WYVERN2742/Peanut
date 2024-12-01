@@ -6,6 +6,7 @@
 
 // import Hardware Abstraction Layer for bl602
 use bl602_hal as hal;
+use peanut::drivers::PCF8574;
 
 use core::fmt::Write;
 use embedded_hal::delay::DelayNs;
@@ -17,6 +18,8 @@ use hal::{
 	prelude::*,
 	serial::*,
 };
+
+use crate::drivers::MCP4728;
 
 // We want our embedded system to halt indefinitely when we panic.
 // We discard the import since its functionality is a side-effect
@@ -58,35 +61,15 @@ fn main() -> ! {
 	// Create a delay function using the riscv chip cycle counter
 	let mut delay = bl602_hal::delay::McycleDelay::new(clocks.sysclk().0);
 
+	let mut i2c = hal::i2c::I2c::new(
+		dp.I2C,
+		(scl, sda),
+		100_000u32.Hz(),
+		clocks,
+	);
+
+	let mut pcf = PCF8574::new();
+
 	loop {
-		// Toggle the LED on and off once a second. Report LED status over UART
-
-		// Set blue led to high (turn on)
-		blue_led.set_high().unwrap();
-		// write to serial connection
-		serial.write_str("RED HIGH\r\n").ok();
-		// wait for 1000ms (not entire accurate, since it uses the internal cycle counter)
-		delay.delay_ms(1000);
-
-		// set blue led to low (turn off)
-		blue_led.set_low().unwrap();
-		serial.write_str("BLUE  LOW\r\n").ok();
-		delay.delay_ms(1000);
-
-		green_led.set_high().unwrap();
-		serial.write_str("GREEN HIGH\r\n").ok();
-		delay.delay_ms(1000);
-
-		green_led.set_low().unwrap();
-		serial.write_str("GREEN  LOW\r\n").ok();
-		delay.delay_ms(1000);
-
-		red_led.set_high().unwrap();
-		serial.write_str("RED HIGH\r\n").ok();
-		delay.delay_ms(1000);
-
-		red_led.set_low().unwrap();
-		serial.write_str("RED  LOW\r\n").ok();
-		delay.delay_ms(1000);
 	}
 }
