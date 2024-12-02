@@ -638,40 +638,22 @@
 				)
 			)
 			(symbol "PJ-320A-4P DIP_0_0"
-				(text "R"
-					(at -2.54 0 900)
+				(text "R1"
+					(at -3.81 0 900)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-			)
-			(symbol "PJ-320A-4P DIP_0_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end -1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text "R2"
+					(at -1.27 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
-				(rectangle
-					(start -1.27 -1.27)
-					(end -1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PJ-320A-4P DIP_1_0"
 				(text "S"
 					(at 3.81 0 0)
 					(effects
@@ -681,7 +663,7 @@
 					)
 				)
 				(text "T"
-					(at -8.89 0 0)
+					(at -10.16 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -689,10 +671,10 @@
 					)
 				)
 			)
-			(symbol "PJ-320A-4P DIP_1_1"
+			(symbol "PJ-320A-4P DIP_0_1"
 				(rectangle
-					(start -3.81 3.81)
-					(end 8.89 -3.81)
+					(start -2.54 3.81)
+					(end -5.08 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -703,8 +685,8 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 3.81) (xy -5.08 3.81) (xy -6.35 2.54) (xy -10.16 3.81) (xy -12.7 1.27) (xy -12.7 -1.27)
-						(xy -10.16 -3.81) (xy -6.35 -2.54) (xy -5.08 -3.81) (xy -3.81 -3.81) (xy -3.81 3.81)
+						(xy -5.08 3.81) (xy -6.35 3.81) (xy -7.62 2.54) (xy -11.43 3.81) (xy -13.97 1.27) (xy -13.97 -1.27)
+						(xy -11.43 -3.81) (xy -7.62 -2.54) (xy -6.35 -3.81) (xy -5.08 -3.81) (xy -5.08 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -715,8 +697,8 @@
 					)
 				)
 				(rectangle
-					(start 12.7 5.08)
-					(end 8.89 -5.08)
+					(start 0 3.81)
+					(end -2.54 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -725,8 +707,32 @@
 						(type background)
 					)
 				)
+				(rectangle
+					(start 0 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 11.43 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PJ-320A-4P DIP_1_1"
 				(pin passive line
-					(at 15.24 0 180)
+					(at 13.97 -1.27 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -735,7 +741,7 @@
 							)
 						)
 					)
-					(number "R"
+					(number "R1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -744,7 +750,25 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 2.54 180)
+					(at 13.97 1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 3.81 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -762,7 +786,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -2.54 180)
+					(at 13.97 -3.81 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1004,13 +1028,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 115.57) (xy 140.97 118.11)
+			(xy 142.24 111.76) (xy 138.43 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10553ed2-1ceb-45fd-b76a-2133e9180638")
+		(uuid "17a8b264-330f-4371-a7d8-580f143e734e")
 	)
 	(wire
 		(pts
@@ -1044,16 +1068,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 140.97 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332bdde6-396a-474a-ad23-839d8f90d179")
-	)
-	(wire
-		(pts
 			(xy 147.32 87.63) (xy 153.67 87.63)
 		)
 		(stroke
@@ -1064,13 +1078,33 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 113.03) (xy 140.97 113.03)
+			(xy 140.97 116.84) (xy 140.97 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6292f0ef-33e0-41cf-92f3-6faec123ba6b")
+		(uuid "4b239758-53c7-44f8-bf56-e545ce06d45f")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52531389-b2c0-4e2c-93cf-63a45d37e50b")
+	)
+	(wire
+		(pts
+			(xy 138.43 111.76) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5624b5f0-d4d5-4a54-a3ad-2fca2c65dcc8")
 	)
 	(wire
 		(pts
@@ -1144,6 +1178,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 116.84) (xy 140.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcb5339-d5b9-4790-9be4-17eb2926f59c")
+	)
+	(wire
+		(pts
 			(xy 153.67 96.52) (xy 147.32 96.52)
 		)
 		(stroke
@@ -1151,16 +1195,6 @@
 			(type default)
 		)
 		(uuid "b4320667-f272-4b4d-90f0-2e45a354b448")
-	)
-	(wire
-		(pts
-			(xy 138.43 99.06) (xy 138.43 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5c14577-6e89-43fe-806b-2e275f7d50a3")
 	)
 	(wire
 		(pts
@@ -1254,7 +1288,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 96.52) (xy 140.97 96.52)
+			(xy 132.08 96.52) (xy 142.24 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2094,11 +2128,14 @@
 		(pin "T"
 			(uuid "8d3f6996-a31e-4ce6-892c-cc342a369517")
 		)
-		(pin "R"
+		(pin "R1"
 			(uuid "f3ae9246-1fd9-4a0c-850d-31424e744f10")
 		)
 		(pin "S"
 			(uuid "6d051ab3-deb0-43a1-b2d1-495e17140227")
+		)
+		(pin "R2"
+			(uuid "597b23e8-2983-443a-b953-7f823020a49a")
 		)
 		(instances
 			(project "Peanut"

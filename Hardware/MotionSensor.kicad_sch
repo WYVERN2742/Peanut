@@ -800,7 +800,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Capacitor 1uF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2589,7 +2589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1uF"
 			(at 102.87 53.34 0)
 			(effects
 				(font
@@ -2734,7 +2734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1uF"
 			(at 93.98 53.34 0)
 			(effects
 				(font
@@ -3100,7 +3100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1uF"
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -3545,7 +3545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1uF"
 			(at 55.88 87.63 0)
 			(effects
 				(font

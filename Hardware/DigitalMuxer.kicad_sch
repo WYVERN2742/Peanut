@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Capacitor 1uF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -281,7 +281,7 @@
 				)
 			)
 		)
-		(symbol "Peanut:LED"
+		(symbol "Peanut:LED Red"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -296,7 +296,7 @@
 					)
 				)
 			)
-			(property "Value" "LED"
+			(property "Value" "Red LED"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -304,7 +304,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -322,13 +322,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" "Red Light emitting diode"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C2286"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "LED diode"
@@ -349,7 +357,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LED Red_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -411,7 +419,184 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED Red_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Peanut:LED Yellow"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Yellow LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Yellow Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C72038"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED Yellow_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED Yellow_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3130,7 +3315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1uF"
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -3890,7 +4075,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:LED")
+		(lib_id "Peanut:LED Yellow")
 		(at 179.07 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3900,6 +4085,14 @@
 		(fields_autoplaced yes)
 		(uuid "978576dc-da90-4ba9-ba85-49f6f035ced9")
 		(property "Reference" "D2"
+			(at 177.4825 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YELLOW"
 			(at 177.4825 54.61 0)
 			(effects
 				(font
@@ -3907,15 +4100,7 @@
 				)
 			)
 		)
-		(property "Value" "GRN"
-			(at 177.4825 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 179.07 60.96 0)
 			(effects
 				(font
@@ -3933,13 +4118,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Yellow Light emitting diode"
 			(at 179.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C72038"
+			(at 177.4825 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4003,7 +4196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1uF"
 			(at 101.6 38.1 0)
 			(effects
 				(font
@@ -4469,7 +4662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Capacitor 1uF"
 			(at 120.65 38.1 0)
 			(effects
 				(font
@@ -4503,7 +4696,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:LED")
+		(lib_id "Peanut:LED Red")
 		(at 168.91 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4513,7 +4706,7 @@
 		(fields_autoplaced yes)
 		(uuid "d182e9ea-df13-4606-9d0d-6703508f3f67")
 		(property "Reference" "D1"
-			(at 167.3225 52.07 0)
+			(at 167.3225 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,14 +4714,14 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 167.3225 54.61 0)
+			(at 167.3225 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 168.91 58.42 0)
 			(effects
 				(font
@@ -4546,13 +4739,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Red Light emitting diode"
 			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 167.3225 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

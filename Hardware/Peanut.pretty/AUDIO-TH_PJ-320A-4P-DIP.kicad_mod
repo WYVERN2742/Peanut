@@ -398,7 +398,7 @@
 		(layer "User.3")
 		(uuid "34b46069-fd78-4ced-9e06-c99c513bab92")
 	)
-	(pad "" thru_hole oval
+	(pad "R1" thru_hole oval
 		(at -1.05 -2.3 90)
 		(size 1.2 2.1)
 		(drill oval 0.6 1.5)
@@ -406,7 +406,7 @@
 		(remove_unused_layers no)
 		(uuid "d69a4f4f-35e1-4a16-95a0-5963dac71c66")
 	)
-	(pad "R" thru_hole oval
+	(pad "R2" thru_hole oval
 		(at -4.05 -2.3 90)
 		(size 1.2 2.1)
 		(drill oval 0.6 1.5)
@@ -429,5 +429,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "60c14c3e-f7f7-4faf-9a72-6ad98aeaa42a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3525N_Horizontal.step"
+		(offset
+			(xyz -2.5 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -90 0)
+		)
 	)
 )

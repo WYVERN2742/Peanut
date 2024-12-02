@@ -471,7 +471,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Capacitor 1uF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1144,7 +1144,7 @@
 				)
 			)
 		)
-		(symbol "Peanut:R"
+		(symbol "Peanut:R 100k"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1156,7 +1156,7 @@
 					)
 				)
 			)
-			(property "Value" "R"
+			(property "Value" "100k"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1191,6 +1191,14 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC" "C60491"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "Resistor"
 				(at 0 0 0)
 				(effects
@@ -1209,7 +1217,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R 100k_0_1"
 				(rectangle
 					(start -2.286 0.889)
 					(end 2.286 -0.889)
@@ -1222,7 +1230,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R 100k_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.5)
@@ -1461,12 +1469,6 @@
 		(uuid "1b8adda2-baa5-46c2-834b-3e64a559560b")
 	)
 	(junction
-		(at 154.94 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32b8fc09-d0d9-4229-a295-3c3304175533")
-	)
-	(junction
 		(at 187.96 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1477,6 +1479,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "548bbcef-df1f-42e4-b608-cb5a0afb2019")
+	)
+	(junction
+		(at 154.94 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8976e20a-067b-4d9a-9174-63fb03ddc8f3")
 	)
 	(junction
 		(at 121.92 83.82)
@@ -1574,6 +1582,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 55.88) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332e0ebc-05c3-4055-b1ee-cf78c7e4e457")
+	)
+	(wire
+		(pts
 			(xy 121.92 83.82) (xy 124.46 83.82)
 		)
 		(stroke
@@ -1604,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 168.91 54.61)
+			(xy 165.1 55.88) (xy 168.91 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1654,16 +1672,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 154.94 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72322aeb-8282-4e24-90a9-54ba5b17552c")
-	)
-	(wire
-		(pts
 			(xy 193.04 48.26) (xy 198.12 48.26)
 		)
 		(stroke
@@ -1704,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 157.48 54.61)
+			(xy 154.94 55.88) (xy 157.48 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1794,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 154.94 58.42)
+			(xy 154.94 52.07) (xy 154.94 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1943,6 +1951,36 @@
 			)
 		)
 		(uuid "154f0340-fa76-4b30-baf8-fa0324c33389")
+	)
+	(text "Uses internal reference\naim for +=2.048V inputs"
+		(exclude_from_sim no)
+		(at 155.575 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "317640ea-59d7-41cc-ae37-d6faeb8e408c")
+	)
+	(text "Non-differential (single line) input\ndoesn't use full dynamic range"
+		(exclude_from_sim no)
+		(at 184.15 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "803a7fe4-d6a4-4283-8ff9-44b1ef640371")
+	)
+	(text "Leaks 3.3V / 200kΩ\n= 16.5uA"
+		(exclude_from_sim no)
+		(at 121.92 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aeaa5201-a429-42d9-bc4b-dd780347741f")
 	)
 	(text "Vout = (R_2/R_1) * V1 - V2"
 		(exclude_from_sim no)
@@ -2196,7 +2234,7 @@
 	)
 	(symbol
 		(lib_id "Peanut:GND")
-		(at 168.91 54.61 90)
+		(at 168.91 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2205,7 +2243,7 @@
 		(fields_autoplaced yes)
 		(uuid "444e0bcd-ce2d-4e2f-9fcf-501d0d892874")
 		(property "Reference" "#PWR033"
-			(at 175.26 54.61 0)
+			(at 175.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2252,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 54.6099 90)
+			(at 172.72 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 54.61 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 54.61 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.546 54.61 0)
+			(at 177.546 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2468,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "531a41e0-d2af-49f5-92e3-7c44fbf08434")
 		(property "Reference" "U6"
 			(at 134.62 36.83 0)
@@ -2487,7 +2524,7 @@
 			)
 		)
 		(property "LCSC" "C19100510"
-			(at 114.3 46.99 0)
+			(at 134.62 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,25 +2559,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 100k")
 		(at 115.57 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "625476be-99af-4aeb-9c5f-01adde434851")
 		(property "Reference" "R14"
-			(at 115.57 77.47 0)
+			(at 115.57 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 115.57 80.01 0)
+		(property "Value" "100k"
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,6 +2608,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 115.57 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2742,7 +2786,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b44a8c6-bdf3-4bd2-bd96-c1c711e64adc")
 		(property "Reference" "Q1"
 			(at 102.87 77.47 90)
@@ -2788,7 +2831,7 @@
 			)
 		)
 		(property "LCSC" "C8326"
-			(at 102.87 86.36 0)
+			(at 102.87 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,25 +2999,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Peanut:R")
+		(lib_id "Peanut:R 100k")
 		(at 128.27 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0af70b5-3892-4235-af3e-eea29af8fd07")
 		(property "Reference" "R15"
-			(at 128.27 77.47 0)
+			(at 128.27 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 128.27 80.01 0)
+		(property "Value" "100k"
+			(at 128.27 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,6 +3050,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60491"
+			(at 128.27 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64d1e7ff-70da-4026-a446-8932c09b40ea")
 		)
@@ -3031,7 +3081,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2f5bed3-f6c1-4d92-9ad2-ef1faccd8e5b")
 		(property "Reference" "U7"
 			(at 155.575 97.79 0)
@@ -3086,7 +3135,7 @@
 			)
 		)
 		(property "LCSC" "C193969"
-			(at 156.21 110.49 0)
+			(at 155.575 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,16 +3249,15 @@
 	)
 	(symbol
 		(lib_id "Peanut:C 1uF")
-		(at 161.29 54.61 90)
+		(at 161.29 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6443e87-6655-4a0e-b1ec-544870ba3f2c")
 		(property "Reference" "C13"
-			(at 161.29 44.45 90)
+			(at 161.29 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3265,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 161.29 46.99 90)
+			(at 161.29 52.705 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +3273,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 165.1 53.6448 0)
+			(at 165.1 54.9148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,7 +3282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 54.61 0)
+			(at 161.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,8 +3290,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 54.61 0)
+		(property "Description" "Capacitor 1uF"
+			(at 161.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,7 +3300,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 161.29 49.53 90)
+			(at 161.29 59.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -299,4 +299,15 @@
 		(thermal_bridge_angle 90)
 		(uuid "d03411a7-7cc7-4e05-82d3-98738de6a33d")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_SPDT_Angled_CK_OS102011MA1Q.step"
+		(offset
+			(xyz -2 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
