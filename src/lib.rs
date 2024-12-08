@@ -7,5 +7,15 @@
 
 #![no_std]
 
+use bl602_hal::gpio::I2c as gpio_i2c;
+use bl602_hal::gpio::{Pin3, Pin4};
+use bl602_hal::i2c::I2c as hal_i2c;
+use bl602_pac::I2C as pac_i2c;
+
+pub type I2cBus = hal_i2c<pac_i2c, (Pin4<gpio_i2c>, Pin3<gpio_i2c>)>;
+
 pub mod drivers;
 pub mod os;
+
+pub mod peanut;
+pub use peanut::Peanut;
