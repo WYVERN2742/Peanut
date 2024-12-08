@@ -1,7 +1,9 @@
 {
-    "rust-analyzer.cargo.allTargets": false,
-    "rust-analyzer.cargo.extraArgs": [
-        "-Z",
-        "unstable-options"
-    ]
+	"rust-analyzer.cargo.allTargets": false,
+	"rust-analyzer.cargo.extraArgs": [
+		"-Z",
+		"unstable-options"
+	],
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false
 }
